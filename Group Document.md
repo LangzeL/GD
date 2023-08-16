@@ -193,6 +193,9 @@
    **Question to be ask**
 
    * Are there specific functionalities or features you envision for the content management aspect?
+   
+   * Regarding the search function, are there any specific features or behaviours you'd like implemented?
+
 
 
 **Website Developing Work Progress**
