@@ -194,6 +194,58 @@
 
    * Are there specific functionalities or features you envision for the content management aspect?
 
-   
 
-   * Regarding the search function, are there any specific features or behaviours you'd like implemented?
+**Website Developing Work Progress**
+
+<style>
+    td.no-border-right {
+        border-right: none;
+    }
+    td.no-border-left {
+        border-left: none;
+    }
+</style>
+
+<table border="1">
+    <thead>
+        <tr>
+            <th>Task Progress / Week</th>
+            <th>Week 1</th>
+            <th>Week 2</th>
+            <th>Week 3</th>
+            <th>Week 4</th>
+            <th>Week 5</th>
+            <th>Week 6</th>
+            <th>Week 7</th>
+            <th>Week 8</th>
+            <th>Week 9</th>
+            <th>Week 10</th>
+            <th>Week 11</th>
+            <th>Week 12</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td><strong>Planning & Design</strong></td>
+            <td colspan="12"><span style="color:rgb(0, 150, 139)">██████████████████</span><span style="color:rgb(255, 192, 203)"></span> <span><strong>Completed 100%</strong></span></td>
+        </tr>
+        <tr>
+            <td><strong>Front-end Development</strong></td>
+            <td colspan="3" class="no-border-right"></td>
+            <td colspan="9" class="no-border-left"><span style="color:rgb(0, 150, 139)">████████████</span><span style="color:rgb(255, 192, 203)">████████████ </span><span><strong>Completed 50%</strong></span></td>
+        </tr>
+        <tr>
+            <td><strong>Planning & Design</strong></td>
+            <td colspan="5" class="no-border-right"></td>
+            <td colspan="7" class="no-border-left"><span style="color:rgb(0, 150, 139)">###</span><span style="color:rgb(255, 192, 203)">### </span><span><strong>Completed ##%</strong></span></td>
+        </tr>
+        <tr>
+            <td><strong>Testing & Feedback</strong></td>
+            <td colspan="12"><span style="color:rgb(0, 150, 139)">███████████████████</span><span style="color:rgb(255, 192, 203)">░░░░ </span><span><strong>Completed ##%</strong></span></td>
+        </tr>
+        <tr>
+            <td><strong>Bug Fixing & Optimization</strong></td>
+            <td colspan="12"><span style="color:rgb(0, 150, 139)">███████████████████████</span><span style="color:rgb(255, 192, 203)">░░░░ </span><span><strong>Completed ##%</strong></span></td>
+        </tr>
+    </tbody>
+</table>
