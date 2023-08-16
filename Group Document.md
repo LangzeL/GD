@@ -1,293 +1,387 @@
-1. **Meeting的形式和记录**
+1. 
 
-**a) Meeting Prep**
+   
 
-​	**i) 参会人员**
+   
 
-​		i.1) 全体组员 （无甲方， 无老师）
+   **Meeting的形式和记录**
 
-​	**ii）Date & Time & Place**
+   **a) Meeting Prep**
 
-​		ii.1)时间地点详情
+   ​	**i) 参会人员**
 
-​	**iii) 流程 & 用时**
+   ​		i.1) 全体组员 （无甲方， 无老师）
 
-​		iii.1 meeting流程 - 10min / 20min
+   ​	**ii）Date & Time & Place**
 
-​		iii.2 question
+   ​		ii.1)时间地点详情
 
-​			iii.2.1) 目标人群
+   ​	**iii) 流程 & 用时**
 
-​			iii.2.2) 功能？搜索框
+   ​		iii.1 meeting流程 - 10min / 20min
 
-​			iii.2.3) 平台/ web
+   ​		iii.2 question
 
-​			iii.2.4) 其他同类网站的亮点和区别？ 你（甲方）想要自己网站与众不同的点在哪里
+   ​			iii.2.1) 目标人群
 
-​	**iv) Meeting的内容总结** - 简洁概括
+   ​			iii.2.2) 功能？搜索框
 
-​			阶段性的总结
+   ​			iii.2.3) 平台/ web
 
-​			一整个部分的总结
+   ​			iii.2.4) 其他同类网站的亮点和区别？ 你（甲方）想要自己网站与众不同的点在哪里
 
-​			每一个section的总结
+   ​	**iv) Meeting的内容总结** - 简洁概括
 
-​			整个meeting的总结
+   ​			阶段性的总结
 
-**b）Recording** - zoom recording
+   ​			一整个部分的总结
 
-​	  Google Drive
+   ​			每一个section的总结
 
-**c) Meeting 1 & 2 & 3**
+   ​			整个meeting的总结
 
-​	i）Meeting 1：
+   **b）Recording** - zoom recording
 
-​		（1）Admin
+   ​	  Google Drive
 
-​	    （2）介绍会议内容
+   **c) Meeting 1 & 2 & 3**
 
-​		（3）列出功能部分的要求
+   ​	i）Meeting 1：
 
-​				（a）editable content
+   ​		（1）Admin
 
-​				  (b)   User interaction
+   ​	    （2）介绍会议内容
 
-​				（c）search - keyword 
+   ​		（3）列出功能部分的要求
 
-​		  (4 ) 列出非功能部分的要求
+   ​				（a）editable content
 
-​				  (a) 目标人群 **为了目标人群做的努力**
+   ​				  (b)   User interaction
 
-​				（b) Scalability - 目标是让多少人使用网站 100/20000/全球 考虑服务器放在哪etc *凸显我们为项目做的努力
+   ​				（c）search - keyword 
 
-​				（c）国际化 语言/时区/服务器
+   ​		  (4 ) 列出非功能部分的要求
 
-​				（d）针对目标或甲方要求的UI UX
+   ​				  (a) 目标人群 **为了目标人群做的努力**
 
-​	ii）Meeting 2：
+   ​				（b) Scalability - 目标是让多少人使用网站 100/20000/全球 考虑服务器放在哪etc *凸显我们为项目做的努力
 
-​		（1）回顾meeting 1的内容和需求
+   ​				（c）国际化 语言/时区/服务器
 
-​		（2）展示现有进度
+   ​				（d）针对目标或甲方要求的UI UX
 
-​		（3）甲方进行反馈 ->记录
+   ​	ii）Meeting 2：
 
-​		（4）新的要求 / 新的需求
+   ​		（1）回顾meeting 1的内容和需求
 
-​	iii) Meeting 3
+   ​		（2）展示现有进度
 
-​			同上
+   ​		（3）甲方进行反馈 ->记录
 
-**d） Meeting Feedback 1 & 2 & 3（无client）**
+   ​		（4）新的要求 / 新的需求
 
-​	i) Meeting Feedback 1:
+   ​	iii) Meeting 3
 
-​		a. 针对每一个fuction评价
+   ​			同上
 
-​		b. 如何实现 **技术 tech**
+   **d） Meeting Feedback 1 & 2 & 3（无client）**
 
-​		c. 分配任务 设定ddl
+   ​	i) Meeting Feedback 1:
 
-​		d. 开发计划的规划
+   ​		a. 针对每一个fuction评价
 
-​			d.i Weekly
+   ​		b. 如何实现 **技术 tech**
 
-​			d.ii Sprint
+   ​		c. 分配任务 设定ddl
 
-​			d.iii 整个
+   ​		d. 开发计划的规划
 
-​	ii） Meeting Feedback 2：
+   ​			d.i Weekly
 
-​		a. 针对甲方提出的需求和修改意见进行讨论
+   ​			d.ii Sprint
 
-​		b. 是否需要和Client进行下一步的交流
+   ​			d.iii 整个
 
-​		c. 如果认可，如何操作
+   ​	ii） Meeting Feedback 2：
 
-​		d.分配任务，制定 ddl
+   ​		a. 针对甲方提出的需求和修改意见进行讨论
 
-​	iii） Meeting Feedback 3：
+   ​		b. 是否需要和Client进行下一步的交流
 
-​		同上
+   ​		c. 如果认可，如何操作
 
-e) Final Feedback from Client
+   ​		d.分配任务，制定 ddl
 
-​	i) 有可能会有新的demo
+   ​	iii） Meeting Feedback 3：
 
-​	ii) 讨论甲方的feedback
+   ​		同上
 
-​	iii) 甲方的反馈->记录
+   e) Final Feedback from Client
 
+   ​	i) 有可能会有新的demo
 
+   ​	ii) 讨论甲方的feedback
 
-2. **Group Meeting （组内meeting）一周二次 甚至 一天一次**
+   ​	iii) 甲方的反馈->记录
 
-   1. Admin； 参会人员； 日期时间地点； 会议计划；会议流程； 会议总结
+   
 
-   2. 讨论现有进度
+   2. **Group Meeting （组内meeting）一周二次 甚至 一天一次**
 
-   3. 讨论现有的挑战 bug / 技术 / 设计 / github / xxxx
+      1. Admin； 参会人员； 日期时间地点； 会议计划；会议流程； 会议总结
 
-   4. Debug
+      2. 讨论现有进度
 
-   5. 分配下一个阶段的工作
+      3. 讨论现有的挑战 bug / 技术 / 设计 / github / xxxx
 
-      
+      4. Debug
 
-3.  **Supervisor Meeting （Tut）**
+      5. 分配下一个阶段的工作
 
-   1. Admin: Host
-   2. 介绍一下每周进度
-   3. 每个人分别讲一下个人贡献 
-   4. Host介绍下一周的计划 每一周都是一个**checkpoint**
+         
 
+   3. **Supervisor Meeting （Tut）**
 
+      1. Admin: Host
+      2. 介绍一下每周进度
+      3. 每个人分别讲一下个人贡献 
+      4. Host介绍下一周的计划 每一周都是一个**checkpoint**
 
-Introduction 
+   
 
-目录需要十分详尽 直观 可以有很多small section
+   Introduction 
 
-1. 项目介绍
-2. 设计理念 -> 名字 ui 功能 logo
-3. 组员介绍
-   1. 组员职责
-   2. 组内交流
-   3. 开发过程
+   目录需要十分详尽 直观 可以有很多small section
 
-Predevelopment
+   1. 项目介绍
+   2. 设计理念 -> 名字 ui 功能 logo
+   3. 组员介绍
+      1. 组员职责
+      2. 组内交流
+      3. 开发过程
 
-requirement
+   Predevelopment
 
-​	网站设计
+   requirement
 
-​	use case
+   ​	网站设计
 
-​	UI wireframe
+   ​	use case
 
-​	Motivation Modelling -> Do be free map -> motivation map
+   ​	UI wireframe
 
-**开发前的准备工作**
+   ​	Motivation Modelling -> Do be free map -> motivation map
 
-技术栈
+   **开发前的准备工作**
 
-网站介绍
+   技术栈
 
-​	预期5-10年的进度
+   网站介绍
 
-​	功能列表 表格
+   ​	预期5-10年的进度
 
-feature 列表
+   ​	功能列表 表格
 
-计划
+   feature 列表
 
---------------------------------------------------------------------------------------------------------------------------------------------------------------
+   计划
 
-Week 1 Group Goal and Task
+   --------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-Formation of group
+   **Week 1 Group Goal and Task**
 
-Identification of what client's needed 
+   Formation of group
 
-Intitial function needed for Longplace beach Website
+   Identification of what client's needed 
 
-1) Simple welcoming website to bring in new member 
-2) long bleach place offers, general information  
-3) able to reach demographics 
-4) events to sign up  
-5) calendar 
-6) if there are changes, notify people that has registered/ attended, backend  
-7) not only sign up for event but also donation, phone no, Facebook, information at the bottom  
-8) cool actions available when scroll down  
-9) colour of the website – natural, generic, no yellow,  fresh white, green, modern 
-10) functional, user-friendly, look fresh, modern 
-11) accessibility, text, audio, layout, usability 
+   Intitial function needed for Longplace beach Website
 
-5 sections - 
+   1) Simple welcoming website to bring in new member 
+   2) long bleach place offers, general information  
+   3) able to reach demographics 
+   4) events to sign up  
+   5) calendar 
+   6) if there are changes, notify people that has registered/ attended, backend  
+   7) not only sign up for event but also donation, phone no, Facebook, information at the bottom  
+   8) cool actions available when scroll down  
+   9) colour of the website – natural, generic, no yellow,  fresh white, green, modern 
+   10) functional, user-friendly, look fresh, modern 
+   11) accessibility, text, audio, layout, usability 
 
-* Content pages (Sign up)   
+   5 sections - 
 
-- calendar/ booking systems 
-- course booking systems 
-- membership(does not mean a lot ( no need put too much)) (sign up for some courses free) (send you some information) (receive some benefits) (), change detail, see what it is they have done, notifications (event coming up)  Sign up for a course, attendees take manually for now so… 
-- Digitize attendance, who should be coming, boxes (tick) 
+   * Content pages (Sign up)   
 
-Qr code   - payment, room hire, donation   -contact use -> phone -> email -> social media  - ability to book . click into yoga, calendar show yoga booking  - membership – donation  - volunteer – hire room 
+   - calendar/ booking systems 
+   - course booking systems 
+   - membership(does not mean a lot ( no need put too much)) (sign up for some courses free) (send you some information) (receive some benefits) (), change detail, see what it is they have done, notifications (event coming up)  Sign up for a course, attendees take manually for now so… 
+   - Digitize attendance, who should be coming, boxes (tick) 
 
---------------------------------------------------------------------------------------------------------------------------------------------------------------
+   Qr code   - payment, room hire, donation   -contact use -> phone -> email -> social media  - ability to book . click into yoga, calendar show yoga booking  - membership – donation  - volunteer – hire room 
 
-### Website Structure:
+   --------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-#### 1. **Home Page**
+   ### Website Structure:
 
-- **Header**: Logo, Navigation (Content pages, Calendar, Courses, Membership, Payment & Donation, Contact Us)
+   #### 1. **Home Page**
 
-- Main Content
+   - **Header**: Logo, Navigation (Content pages, Calendar, Courses, Membership, Payment & Donation, Contact Us)
 
-  :
+   - Main Content
 
-  - Welcoming text or banner
-  - Highlights of upcoming events or offers
-  - Cool scroll effects (e.g. parallax, fade in/out animations)
+     :
 
-- **Footer**: Phone no, Email, Facebook, and other social media links
+     - Welcoming text or banner
+     - Highlights of upcoming events or offers
+     - Cool scroll effects (e.g. parallax, fade in/out animations)
 
-#### 2. **Content Pages**
+   - **Footer**: Phone no, Email, Facebook, and other social media links
 
-- General information about the place, offers, and benefits.
-- Sign-up form for new members.
-- Links to events, calendar, and courses for easy navigation.
+   #### 2. **Content Pages**
 
-#### 3. **Calendar/Booking Systems**
+   - General information about the place, offers, and benefits.
+   - Sign-up form for new members.
+   - Links to events, calendar, and courses for easy navigation.
 
-- Display of monthly/weekly calendar.
-- Highlight of specific events or courses.
-- Clicking on an event/course will show more details and sign-up options.
-- Notification system for changes in events.
+   #### 3. **Calendar/Booking Systems**
 
-#### 4. **Course Booking Systems**
+   - Display of monthly/weekly calendar.
+   - Highlight of specific events or courses.
+   - Clicking on an event/course will show more details and sign-up options.
+   - Notification system for changes in events.
 
-- List of available courses.
-- Details for each course and instructor.
-- Option to sign up for courses.
-- QR code generation for attendees.
+   #### 4. **Course Booking Systems**
 
-#### 5. **Membership**
+   - List of available courses.
+   - Details for each course and instructor.
+   - Option to sign up for courses.
+   - QR code generation for attendees.
 
-- Details about the membership benefits.
-- Option to change details.
-- Overview of past events/courses attended.
-- Notification system for upcoming events or benefits.
+   #### 5. **Membership**
 
-#### 6. **Payment, Room Hire, & Donation**
+   - Details about the membership benefits.
+   - Option to change details.
+   - Overview of past events/courses attended.
+   - Notification system for upcoming events or benefits.
 
-- Options for payments (course fees, room hire).
-- Donation system with various options (one-time, monthly, etc.).
-- Secure payment gateway integration.
+   #### 6. **Payment, Room Hire, & Donation**
 
-#### 7. **Contact Us**
+   - Options for payments (course fees, room hire).
+   - Donation system with various options (one-time, monthly, etc.).
+   - Secure payment gateway integration.
 
-- Contact form for inquiries.
-- Direct phone and email links.
-- Links to social media pages.
+   #### 7. **Contact Us**
 
-### Features:
+   - Contact form for inquiries.
+   - Direct phone and email links.
+   - Links to social media pages.
 
-1. **Responsive Design**: Ensure that the website is accessible and looks great on all devices, from desktops to mobile phones.
-2. **Accessibility Features**: Text-to-speech, adjustable font size, high contrast mode, etc.
-3. **Backend System**: To manage members, attendees, payments, and notifications.
-4. **Social Media Integration**: Links and possibly feeds from platforms like Facebook.
+   ### Features:
 
-### Recommended Technologies:
+   1. **Responsive Design**: Ensure that the website is accessible and looks great on all devices, from desktops to mobile phones.
+   2. **Accessibility Features**: Text-to-speech, adjustable font size, high contrast mode, etc.
+   3. **Backend System**: To manage members, attendees, payments, and notifications.
+   4. **Social Media Integration**: Links and possibly feeds from platforms like Facebook.
 
-1. **Frontend**:
-   - **Framework**: ReactJS with Next.js (for server-side rendering and better SEO)
-   - **Styling**: CSS Frameworks like Bootstrap or TailwindCSS (for a modern look and responsiveness)
-   - **Animations**: AOS (Animate On Scroll) for scroll effects.
-2. **Backend**:
-   - **Framework**: Node.js with Express.js
-   - **Database**: MongoDB or PostgreSQL
-   - **Authentication**: Passport.js (for member login and registration)
-   - **Notifications**: NodeMailer (for email notifications)
-3. **Other Tools**:
-   - **Payment Gateway**: Stripe or PayPal for payment and donation processing.
-   - **Calendar**: FullCalendar.js (for displaying and managing events)
+   ### Recommended Technologies:
+
+   1. **Frontend**:
+      - **Framework**: ReactJS with Next.js (for server-side rendering and better SEO)
+      - **Styling**: CSS Frameworks like Bootstrap or TailwindCSS (for a modern look and responsiveness)
+      - **Animations**: AOS (Animate On Scroll) for scroll effects.
+   2. **Backend**:
+      - **Framework**: Node.js with Express.js
+      - **Database**: MongoDB or PostgreSQL
+      - **Authentication**: Passport.js (for member login and registration)
+      - **Notifications**: NodeMailer (for email notifications)
+   3. **Other Tools**:
+      - **Payment Gateway**: Stripe or PayPal for payment and donation processing.
+      - **Calendar**: FullCalendar.js (for displaying and managing events)
+
+   
+
+   --------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+   **Week 2 Group Goal and task**
+
+   **Meeting 1 1st Aug Via Zoom**
+
+   Admin: Langze L
+
+   Paticipent: Wenda Z, Yilin C, Jinyun T, Shanqing H
+
+   Meeting overview
+
+   1. Gather Client's contact detail ❌ (will be done next week)
+
+   2. Finalise what section of the website do we want to do --> Content Page management + Calendar✔
+   3. Decide each team member wants to Contribuild in certain parts✔
+   4. Create Motivation model✔
+   5. discuss the possibe framework for code ✔
+      * front end： react/vue
+      * backend： node.js
+      * database:   Mysql/MongoDB
+
+   Initial concern:
+
+   1. How do we add web content into database
+
+   ---------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+   **Week 3 Group Goal and task**
+
+   **Meeting 1 8th Aug Via Zoom**
+
+   Admin: Langze L
+
+   Paticipent: Wenda Z, Yilin C, Jinyun T, Shanqing H
+
+   **Meeting Overview**
+
+   1. **Preliminary Decisions:**
+      - Determine the questions we need to ask the client.
+      - Establish the content that should be included in our presentation.
+   2. **Design Preview:**
+      - Provide an initial graphic design draft for the client's review. (we have a sample ver 1 and ver 2 of content page)
+   3. **Scheduling:**
+      - If things go smoothly, I will aim to schedule a meeting with the client on Wednesday, Thursday, or Friday.
+   4. **Online Meeting Proposal:**
+      - Explore the possibility of an online meeting with the client.
+      - If feasible, I hope that all team members can attend to ensure consistent information and understanding.
+   5. **Emphasis on Group Cohesiveness:**
+      - Our tutor appears to evaluate based on overall group capability.
+      - I hope that this week, our group can surpass other groups in terms of progress.
+
+   **Outcome**
+
+   **1. Links to Different Areas**
+
+   Navigation Bar: This will provide links to all parts of the website.
+   Anchor Links: These allow users to quickly scroll to specific sections of a page.
+
+
+   **2. Content Management**
+
+   We aim to provide an admin dashboard or interface that allows for easy content addition, editing, and removal.
+
+
+   **3. Navigation**
+
+   Top Navigation Bar: This will contain links to the main pages.
+   Footer: This will have auxiliary links, including contact details and social media links.
+   Sidebar (Optional): Depending on the design, this might provide shortcuts or tools for users.
+
+
+   **4. Search Function**
+
+   This will let users input keywords to search for specific content on the website.
+
+   
+
+   **Question to be ask**
+
+   * Are there specific functionalities or features you envision for the content management aspect?
+
+   
+
+   * Regarding the search function, are there any specific features or behaviours you'd like implemented?
