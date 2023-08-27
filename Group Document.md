@@ -26,7 +26,7 @@
         <tr>
             <td><strong>Front-end Development</strong></td>
             <td colspan="3" style="border-right: none;"></td>
-            <td colspan="9" style="border-left: none;"><span style="color:rgb(0, 150, 139)">████████████</span><span style="color:rgb(255, 192, 203)">████████████ </span><span><strong>Completed 50%</strong></span></td>
+            <td colspan="9" style="border-left: none;"><span style="color:rgb(0, 150, 139)">███████████████</span><span style="color:rgb(255, 192, 203)">███ </span><span><strong>Completed 70%</strong></span></td>
         </tr>
         <tr>
             <td><strong>Back-end Development</strong></td>
@@ -43,41 +43,6 @@
         </tr>
     </tbody>
 </table>
-
---------------------------------------------------------------------------------------------------------------------------------------------------------------
-
-
-
-   **Week 1 Group Goal and Task**
-
-   Formation of group
-
-   Identification of what client's needed 
-
-   Intitial function needed for Longplace beach Website
-
-   1) Simple welcoming website to bring in new member 
-   2) long bleach place offers, general information  
-   3) able to reach demographics 
-   4) events to sign up  
-   5) calendar 
-   6) if there are changes, notify people that has registered/ attended, backend  
-   7) not only sign up for event but also donation, phone no, Facebook, information at the bottom  
-   8) cool actions available when scroll down  
-   9) colour of the website – natural, generic, no yellow,  fresh white, green, modern 
-   10) functional, user-friendly, look fresh, modern 
-   11) accessibility, text, audio, layout, usability 
-
-   5 sections - 
-
-   * Content pages (Sign up)   
-
-   - calendar/ booking systems 
-   - course booking systems 
-   - membership(does not mean a lot ( no need put too much)) (sign up for some courses free) (send you some information) (receive some benefits) (), change detail, see what it is they have done, notifications (event coming up)  Sign up for a course, attendees take manually for now so… 
-   - Digitize attendance, who should be coming, boxes (tick) 
-
-   Qr code   - payment, room hire, donation   -contact use -> phone -> email -> social media  - ability to book . click into yoga, calendar show yoga booking  - membership – donation  - volunteer – hire room 
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -159,12 +124,52 @@
       - **Calendar**: FullCalendar.js (for displaying and managing events)
 
    
+--------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+### Weekly objectives, tasks and meeting notes:
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-   **Week 2 Group Goal and task**
+#### Week 1
 
-   **Meeting 1 1st Aug Via Zoom**
+**Group Goal and Task**：
+
+   Formation of group
+
+   Identification of what client's needed 
+
+   Intitial function needed for Longplace beach Website
+
+   1) Simple welcoming website to bring in new member 
+   2) long bleach place offers, general information  
+   3) able to reach demographics 
+   4) events to sign up  
+   5) calendar 
+   6) if there are changes, notify people that has registered/ attended, backend  
+   7) not only sign up for event but also donation, phone no, Facebook, information at the bottom  
+   8) cool actions available when scroll down  
+   9) colour of the website – natural, generic, no yellow,  fresh white, green, modern 
+   10) functional, user-friendly, look fresh, modern 
+   11) accessibility, text, audio, layout, usability 
+
+   5 sections - 
+
+   * Content pages (Sign up)   
+
+   - calendar/ booking systems 
+   - course booking systems 
+   - membership(does not mean a lot ( no need put too much)) (sign up for some courses free) (send you some information) (receive some benefits) (), change detail, see what it is they have done, notifications (event coming up)  Sign up for a course, attendees take manually for now so… 
+   - Digitize attendance, who should be coming, boxes (tick) 
+
+   Qr code   - payment, room hire, donation   -contact use -> phone -> email -> social media  - ability to book . click into yoga, calendar show yoga booking  - membership – donation  - volunteer – hire room 
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+#### Week 2
+
+**Group Goal and task:**
+
+**Meeting 1 1st Aug Via Zoom**
 
    Admin: Langze L
 
@@ -188,15 +193,17 @@
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-   **Week 3 Group Goal and task**
+#### Week 3
 
-   **Meeting 1 8th Aug Via Zoom**
+**Group Goal and task:**
+
+**Meeting 1 8th Aug Via Zoom**
 
    Admin: Langze L
 
    Paticipent: Wenda Z, Yilin C, Jinyun T, Shanqing H
 
-   **Meeting Overview**
+**Meeting Overview**
 
    1. **Preliminary Decisions:**
       - Determine the questions we need to ask the client.
@@ -212,37 +219,52 @@
       - Our tutor appears to evaluate based on overall group capability.
       - I hope that this week, our group can surpass other groups in terms of progress.
 
-   **Outcome**
+**Outcome**
 
-   **1. Links to Different Areas**
+**1. Links to Different Areas**
 
    Navigation Bar: This will provide links to all parts of the website.
    Anchor Links: These allow users to quickly scroll to specific sections of a page.
 
 
-   **2. Content Management**
+**2. Content Management**
 
    We aim to provide an admin dashboard or interface that allows for easy content addition, editing, and removal.
 
 
-   **3. Navigation**
+**3. Navigation**
 
    Top Navigation Bar: This will contain links to the main pages.
    Footer: This will have auxiliary links, including contact details and social media links.
    Sidebar (Optional): Depending on the design, this might provide shortcuts or tools for users.
 
 
-   **4. Search Function**
+**4. Search Function**
 
    This will let users input keywords to search for specific content on the website.
 
    
 
-   **Question to be ask**
+**Question to be ask**
 
    * Are there specific functionalities or features you envision for the content management aspect?
    
    * Regarding the search function, are there any specific features or behaviours you'd like implemented?
 
+---------------------------------------------------------------------------------------------------------------------------------------------------------------
 
+#### Week 4
 
+**Group Goal and task:**
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+#### Week 5
+
+**Group Goal and task:**
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+#### Week 6
+
+**Group Goal and task:**
