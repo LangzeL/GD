@@ -1,4 +1,4 @@
-**Website Developing Work Progress**
+## Website Developing Work Progress
 
 <table border="1">
     <thead>
@@ -46,7 +46,7 @@
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-   ### Website Structure:
+   ## Website Structure:
 
    #### 1. **Home Page**
 
@@ -126,14 +126,13 @@
    
 --------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-### Weekly objectives, tasks and meeting notes:
+## Weekly objectives, tasks and meeting notes
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-#### Week 1
+### Week 1  
 
-**Group Goal and Task**：
-
+#### Group Goal and Task ：
    Formation of group
 
    Identification of what client's needed 
@@ -165,20 +164,19 @@
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-#### Week 2
+### Week 2
 
-**Group Goal and task:**
+#### Group Goal and Task ：
 
-**Meeting 1 1st Aug Via Zoom**
+#### Meeting Overview:
+
+   ==Meeting 1 1st Aug Via Zoom==
 
    Admin: Langze L
 
    Paticipent: Wenda Z, Yilin C, Jinyun T, Shanqing H
 
-   Meeting overview
-
    1. Gather Client's contact detail ❌ (will be done next week)
-
    2. Finalise what section of the website do we want to do --> Content Page management + Calendar✔
    3. Decide each team member wants to Contribuild in certain parts✔
    4. Create Motivation model✔
@@ -189,21 +187,21 @@
 
    Initial concern:
 
-   1. How do we add web content into database
+   6. How do we add web content into database
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-#### Week 3
+### Week 3
 
-**Group Goal and task:**
+#### Group Goal and Task ：
 
-**Meeting 1 8th Aug Via Zoom**
+#### Meeting Overview:
+
+   ==Meeting 1 8th Aug Via Zoom==
 
    Admin: Langze L
 
    Paticipent: Wenda Z, Yilin C, Jinyun T, Shanqing H
-
-**Meeting Overview**
 
    1. **Preliminary Decisions:**
       - Determine the questions we need to ask the client.
@@ -253,18 +251,30 @@
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-#### Week 4
+### Week 4
 
-**Group Goal and task:**
+#### Group Goal and Task ：
 
----------------------------------------------------------------------------------------------------------------------------------------------------------------
+#### Meeting Overview:
 
-#### Week 5
-
-**Group Goal and task:**
+   ==Meeting 1 8th Aug Via Zoom==
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-#### Week 6
+### Week 5
 
-**Group Goal and task:**
+#### Group Goal and Task ：
+
+#### Meeting Overview:
+
+   ==Meeting 1 8th Aug Via Zoom==
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+### Week 6
+
+#### Group Goal and Task ：
+
+#### Meeting Overview:
+
+   ==Meeting 1 8th Aug Via Zoom==
