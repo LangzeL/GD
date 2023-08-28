@@ -46,6 +46,30 @@
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------
 
+**Team structure**
+
+| **Role**           | **Student Name** |
+| ------------------ | ---------------- |
+| **Product Owner**  | Langze Lu        |
+| **Scrum Master**   | Langze Lu        |
+| **QA Engineer**    | Wenda Zhang      |
+| **Architect**      | Shanqing Huang   |
+| **UI/UX designer** | Jing Yun Tan     |
+| **Dev engineer**   | Yilin Chen       |
+
+| **Development Team**       |                 |
+| -------------------------- | --------------- |
+| **Tech Lead**              | **Wenda Zhang** |
+| **Front end dev engineer** | Langze Lu       |
+|                            | Wenda Zhang     |
+|                            | Shanqing Huang  |
+|                            | Jing Yun Tan    |
+|                            | Yilin Chen      |
+| **Code maintenance**       | Shanqing Huang  |
+| **Debug+test**             | Yilin Chen      |
+
+------------------------
+
    ## Website Structure:
 
    #### 1. **Home Page**
@@ -54,12 +78,10 @@
 
    - Main Content
 
-     :
-
      - Welcoming text or banner
      - Highlights of upcoming events or offers
      - Cool scroll effects (e.g. parallax, fade in/out animations)
-
+     
    - **Footer**: Phone no, Email, Facebook, and other social media links
 
    #### 2. **Content Pages**
@@ -123,7 +145,7 @@
       - **Payment Gateway**: Stripe or PayPal for payment and donation processing.
       - **Calendar**: FullCalendar.js (for displaying and managing events)
 
-   
+
 --------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## Weekly objectives, tasks and meeting notes
@@ -170,7 +192,7 @@
 
 #### Meeting Overview:
 
-   ==Meeting 1 1st Aug Via Zoom==
+   ==Meeting 2 Meeting 1 1st Aug Via Zoom==
 
    Admin: Langze L
 
@@ -193,11 +215,11 @@
 
 ### Week 3
 
-#### Group Goal and Task ：
+#### Group Goal and Task ：create a react app and set up environment for every team member
 
 #### Meeting Overview:
 
-   ==Meeting 1 8th Aug Via Zoom==
+   ==Meeting 3 Meeting 1 8th Aug Via Zoom==
 
    Admin: Langze L
 
@@ -253,11 +275,69 @@
 
 ### Week 4
 
-#### Group Goal and Task ：
+#### Group Goal and Task ：Finalize the home page using react 
 
 #### Meeting Overview:
 
-   ==Meeting 1 8th Aug Via Zoom==
+   ==Week4 meeting 1 16th Aug Via Zoom==
+
+   Admin: Langze L
+
+   Paticipent: Wenda Z, Yilin C, Jinyun T, Shanqing H
+
+**Agenda and Progress:**
+
+1. **Links to Different Areas** ✔
+   - Navigation Bar: This feature is complete. It provides links to all parts of the website.
+   - Anchor Links: Also complete. These allow users to quickly scroll to specific sections of a page.
+2. **Content Management** **TBD**
+   - Goal: To provide an admin dashboard or interface that allows for easy content addition, editing, and removal.
+3. **Navigation** ✔
+   - Top Navigation Bar: This feature is complete and contains links to the main pages.
+   - Footer: Also complete. It contains auxiliary links, including contact details and social media links.
+   - Sidebar (Optional): Depending on the design, this might provide shortcuts or tools for users.
+4. **Search Function** **TBD**
+   - Goal: To let users input keywords to search for specific content on the website.
+
+**Challenges and Considerations:**
+
+- How to link tables with URLs, considering React Router DOM.
+- How to connect the front-end to the back-end.
+
+ ==Week4 meeting 2 20th Aug Via Zoom==
+
+   Admin: Langze L
+
+   Paticipent: Wenda Z, Yilin C, Jinyun T, Shanqing H
+
+**Current Progress:**
+
+1. **Content Page Formation**
+   - Creation of the Nav Bar
+   - Creation of the dropdown menu
+   - User login page (without actual functionality)
+   - Dropdown animations
+   - Main content section
+   - Creation of three subsections
+   - Contact section and social media links
+2. **Preliminary Understanding of Backend**
+   - Installation of Flask (entire team should ideally have the React and Flask environment set up by today)
+   - Use of Axios library (for simplifying HTTP requests to the server)
+   - Flask's login library with example code.
+
+**Challenges and Considerations:**
+
+- Uncertainty with the backend -> Need to coordinate with other teams.
+- Lack of specific server information.
+- Adding features to make our website stand out.
+- Debugging and testing steps.
+- Client requirements are still at a preliminary stage. Need to constantly report progress to the client and confirm requirements.
+
+**Work Allocation for Next week:**
+
+- Complete the layout for each content page.
+- For the backend, coordinate with other teams and aim to create an admin dashboard.
+- Whether online or offline, organize a meeting with the client to walk through the process.
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -267,7 +347,99 @@
 
 #### Meeting Overview:
 
-   ==Meeting 1 8th Aug Via Zoom==
+   ==Week 5 Meeting 1 22nd Aug Via Zoom==
+
+   Admin: Langze L
+
+   Paticipent: Wenda Z, Yilin C, Jinyun T, Shanqing H
+
+**Agenda for Client Meeting:**
+
+1. **Editing Feature Expectations**
+   - What kind of editing features are you expecting? A simple textbox for content changes, or something more user-friendly?
+2. **Homepage Feedback**
+   - Do you like the current homepage? If not, what specific changes would you like to see?
+3. **Admin Roles**
+   - Different admins might have different permissions. We need confirmation from you to understand what kind of admin roles we should implement.
+4. **Unique Selling Points**
+   - What features would make this website stand out from competitors or similar websites? For instance, are you interested in having a chatbot?
+5. **Layout Consistency**
+   - Do you want a unified layout for different content pages or do you prefer each page to have its own unique format?
+6. **Section Redundancy**
+   - Some elements, like those in the navbar, are repeated in the contact section. Should the new contact section be more minimalistic?
+7. **Content Consistency**
+   - Should the text on each page remain consistent with the original website?
+8. **Search Function**
+   - Do you still want to proceed with the search function, or should we consider it dropped?
+9. **Cover Slide Window**
+   - Are you interested in having animated transitions for the slide window on the cover page?
+10. **Additional Features for Editing**
+    - Do you require additional features like history, restore, backup, picture upload, cropping, and file size limitations for the editing function?
+11. **Server and Domain**
+    - Could you provide us with server access and the domain name?
+12. **Website Deployment**
+    - Is this website really going to be used?
+
+This agenda aims to clarify client expectations and ensure that our project aligns with their vision. It will help us in defining the scope and functionalities that need to be developed.
+
+   ==Week 5 Meeting 1 23rd Aug In LBP community centre==
+
+   Admin: Langze L
+
+   Paticipent: Wenda Z, Yilin C, Jinyun T, Shanqing H
+
+   Guest: Client(Cat Beed) 
+
+**Client Feedback Summary:**
+
+1. **Logo & General Design:**
+   - The client doesn't require a mural and prefers darker and pink colors. They are not satisfied with the current orange text and wish to change the 'Contact Us' section to a blue background.
+2. **Login Portal:**
+   - The client wants the color of the login portal changed and suggests different portals for staff/tutors and members.
+3. **Sliding Animation:**
+   - The client desires automatic sliding animation that stops when the cursor is put over it. They prefer separate text and image boxes that also have sliding animations.
+4. **Sponsors:**
+   - The client wants the section renamed to "Supported By" and prefers smaller logos.
+5. **Contact Us:**
+   - The admin login should be at the very bottom. The Instagram link needs correction, and the section should include a 'Subscribe' option. At the very bottom, they want a map, admin login, and address info.
+6. **Feature Requests:**
+   - The client wants an easy-to-use admin page with functionalities similar to Wix, including preview, publish, and undo options. They also want the flexibility to move images from one column to another.
+7. **Database:**
+   - Only one type of admin is required. Members also don't need to have different types or levels.
+8. **Reference Website:**
+   - The client has pointed to the Cockatoo Community House website as a reference, particularly noting the "Sign up to newsletters" feature.
+9. **Server Information:**
+   - The client is unsure about server details at this time.
+
+This feedback is critical for realigning our project goals and tasks to meet client expectations better. It serves as a guide for the functionalities and design elements that need attention or rework.
+
+==Week 5 Meeting 2 27th Aug Via zoom==
+
+   Admin: Langze L
+
+   Paticipent: Wenda Z, Yilin C, Jinyun T, Shanqing H
+
+**Current Progress:**
+
+1. **Home Page:**
+   - The home page is mostly complete, with all subsections having their respective layouts.
+2. **Login Page:**
+   - A basic login page is ready.
+3. **Map:**
+   - Preliminary work on including a map is done, but it's not yet added to the site.
+
+**Current Challenges:**
+
+1. **Google API Key:**
+   - The client has not provided the Google API key, affecting the integration of certain features like maps.
+2. **Edit Feature:**
+   - Implementing the edit functionality is challenging. The client wishes for an entire page with a toolbar on the side for intuitive website editing.
+3. **Admin Login and Dashboard:**
+   - Creating the admin login and dashboard/edit board is still pending.
+4. **Admin Login Verification:**
+   - Implementing authentication and permission checks for admin login is also a challenge.
+
+Given the current progress and challenges, the next steps involve focusing on implementing the edit feature as described by the client and working on the admin functionalities. The team should also reach out to the client for necessary credentials like the Google API key.
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------
 
