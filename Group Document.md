@@ -188,7 +188,7 @@
 
 The content page's UML has been added to the GitHub repository under the folder diagram. ([Uml.pdf](Diagram\Uml.pdf)) 
 
-The use case has been added to the GitHub repository under the folder diagram ([use case digram.pdf](Diagram\use case digram.pdf))
+The use case has been added to the GitHub repository under the folder diagram ([use case diagram.pdf](Diagram\use%20case%20digram.pdf))
 
 We decided that the content page should contain the following elements:
 
@@ -199,7 +199,7 @@ Home Page -> Including Nav bar that can directly link to other section -> Drop d
 
 - Main content, including news and activities and incoming events, will be displayed in picture mode. The user will be able to click the picture and link to that specific page
 - Under main content, there will be a section showing "Sponsor," where it shows who is currently supporting LongBeach Place and nav link to their home page 
-- Contact us section will include subscribing newsletter button, social media link
+- The contact us section will include a subscribing newsletter button, social media link
 
 The Nav bar contains :
 
