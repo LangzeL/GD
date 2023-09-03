@@ -81,7 +81,7 @@
 
 ![CI,CD PIPLINE](Diagram/CI,CD%20PIPLINE.png)
 
-### Main Phases of CI/CD:
+### Main Phases of CI/CD（planning）:
 
 1. **Code Commit**: Developers complete code changes and commit them to a version control system like Git.
 2. **Build** (planning): Upon receiving new code, automated tools like Jenkins, GitLab CI, or GitHub Actions compile it and create executable files.
@@ -184,7 +184,7 @@
 
 ----------------------
 
-**Website Structure - Content Ver 2.0 (Design on Week 4 ):**
+## **Website Structure - Content Ver 2.0 (Design on Week 4 ):**
 
 The content page's UML has been added to the GitHub repository under the folder diagram. ([Uml.pdf](Diagram/Uml.pdf)) 
 
@@ -217,7 +217,7 @@ The Nav bar contains :
 
 --------
 
-**Website Structure - Content Ver 3.0 (Design on Week 5 ):**
+## **Website Structure - Content Ver 3.0 (Design on Week 5 ):**
 
 After meeting with the client, we made a few adjustments to our content page.
 
