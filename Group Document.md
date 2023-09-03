@@ -213,7 +213,7 @@ The Nav bar contains :
 - RoomHire
 - Showcase
 
-![Website Structure ver2.0](/Diagram/Website Structure ver2.0.png)
+![Website Structure ver2.0](Diagram\Website%20Structure%20ver2.0.png)
 
 --------
 
@@ -233,7 +233,7 @@ After meeting with the client, we made a few adjustments to our content page.
 
 5. Separate admin login from user login - admin is now for editing the website mainly 
 
-   ![Website Structure ver 3.0](/Diagram/Website Structure ver 3.0.png)
+   ![Website Structure ver 3.0](Diagram\Website%20Structure%20ver%203.0.png)
 
 -------
 
