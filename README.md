@@ -237,7 +237,82 @@ After meeting with the client, we made a few adjustments to our content page.
 
 -------
 
+## Sprint Plan for Longplace Beach Website Development
 
+- ### Sprint 1 (Week 1 - Week 2)
+
+  #### Objective:
+
+  - Team Formation and Initial Requirement Gathering
+
+  #### Tasks:
+
+  1. Formation of the development group.
+  2. Identification of client's needs.
+  3. Initial identification of functionalities required for the Longplace Beach Website.
+  4. Discuss potential technical frameworks (Frontend: React/Vue, Backend: Node.js, Database: MySQL/MongoDB).
+
+  #### Deliverables:
+
+  - Requirement documentation
+  - Technical stack decisions
+
+  #### Sprint Highlights:
+
+  - **Quick Review**: Successfully formed the team and gathered initial requirements.
+  - **Positive Feedback**: Effective communication within the team and with the client.
+  - **Reflect on Roadblocks and Improvements**: Need to improve in requirement clarification. Consider a follow-up meeting with the client for more detailed requirements.
+
+  ------
+
+  ### Sprint 2 (Week 3 - Week 4)
+
+  #### Objective:
+
+  - Environment Setup and Home Page Design
+
+  #### Tasks:
+
+  1. Create a React app and set up the development environment for all team members.
+  2. Finalize the home page design and start the development.
+  3. Initial considerations for linking front-end and back-end.
+
+  #### Deliverables:
+
+  - Running React application
+  - Home page design mockups
+  - Preliminary front-end to back-end connection strategy
+
+  #### Sprint Highlights:
+
+  - **Quick Review**: Successfully set up the development environment and initiated home page design.
+  - **Positive Feedback**: Great teamwork and on-time task completion.
+  - **Reflect on Roadblocks and Improvements**: Faced some challenges with front-end and back-end integration. Need to investigate best practices.
+
+  ------
+
+  ### Sprint 3 (Week 5-week6)
+
+  #### Objective:
+
+  - Client Meeting and Feature Adjustments
+
+  #### Tasks:
+
+  1. Prepare the agenda for the client meeting.
+  2. Adjust features and designs based on client feedback.
+  3. Start the development of the editing features and admin functionalities.
+
+  #### Deliverables:
+
+  - Meeting minutes and client feedback
+  - Updated design mockups based on client feedback
+
+  #### Sprint Highlights:
+
+  - **Quick Review**: Successful client meeting led to valuable feedback and feature adjustments.
+  - **Positive Feedback**: The client was impressed with the initial designs and progress.
+  - **Reflect on Roadblocks and Improvements**: Need to work on the editing features as per client's detailed feedback. Consider more frequent client interactions.
 
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -548,3 +623,6 @@ Given the current progress and challenges, the next steps involve focusing on im
    Admin: Langze L
 
    Paticipent: Wenda Z, Yilin C, Jinyun T, Shanqing H
+
+------
+
