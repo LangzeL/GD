@@ -295,24 +295,28 @@ After meeting with the client, we made a few adjustments to our content page.
 
   #### Objective:
 
-  - Client Meeting and Feature Adjustments
+  - Client Feedback Implementation and Advanced Feature Development
 
   #### Tasks:
 
-  1. Prepare the agenda for the client meeting.
-  2. Adjust features and designs based on client feedback.
-  3. Start the development of the editing features and admin functionalities.
+  1. Implement the changes and features suggested during the client meeting.
+  2. Develop the toolbar with text and image editing functionalities.
+  3. Develop the Navbar feature for seamless page navigation for admin.
+  4. Begin initial work on admin login and dashboard features.
+  5. Finalize how the edit function can be implemented on the website.
 
   #### Deliverables:
-
-  - Meeting minutes and client feedback
-  - Updated design mockups based on client feedback
-
+  
+  - Updated website features based on client feedback.
+  - Toolbar and Navbar for admin's ease of use.
+  - Initial version of the admin login and dashboard.
+  - Concrete plan and perhaps a prototype for the edit function on the website.
+  
   #### Sprint Highlights:
-
-  - **Quick Review**: Successful client meeting led to valuable feedback and feature adjustments.
-  - **Positive Feedback**: The client was impressed with the initial designs and progress.
-  - **Reflect on Roadblocks and Improvements**: Need to work on the editing features as per client's detailed feedback. Consider more frequent client interactions.
+  
+  - **Quick Review**: Made significant progress in implementing client's feedback and started working on advanced features like the toolbar, Navbar, and admin dashboard.
+  - **Positive Feedback**: The client was pleased with the prompt implementation of their feedback and the direction in which the project is headed.
+  - **Reflect on Roadblocks and Improvements**: The major challenge remains the edit function's implementation, requiring intricate front-end to back-end communication. Need to speed up development in this area and consider technical solutions to ease the process. More frequent client meetings could also be beneficial for clarifying feature expectations.
 
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -623,6 +627,21 @@ Given the current progress and challenges, the next steps involve focusing on im
    Admin: Langze L
 
    Paticipent: Wenda Z, Yilin C, Jinyun T, Shanqing H
+
+#### Toolbar Features
+
+1. **Add Element**
+   - Text Editing: Allow admin to change text color, size, and choose between default and current font.
+   - Image Editing: Enable image upload with a defined format. If the image exceeds the format, provide cropping options.
+2. **Change of Subsection**
+   - Allow admins to move different sections within the same page.
+
+#### Navbar Features
+
+1. Page Navigation
+   - Keep the toolbar constant while navigating between different pages.
+
+
 
 ------
 
