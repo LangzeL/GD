@@ -186,22 +186,22 @@
 
 **Website Structure - Content Ver 2.0 (Design on Week 4 ):**
 
-Content page's UML has been added to the Github repository under folder diagram. ([Uml.pdf](Diagram\Uml.pdf)) 
+The content page's UML has been added to the GitHub repository under the folder diagram. ([Uml.pdf](Diagram\Uml.pdf)) 
 
-Use case has been added to the Github repository under folder diagram ([use case digram.pdf](Diagram\use case digram.pdf))
+The use case has been added to the GitHub repository under the folder diagram ([use case digram.pdf](Diagram\use case digram.pdf))
 
-We decide content page show contain the following elements:
+We decided that the content page should contain the following elements:
 
-Home Page -> Including Nav bar that can directly link to other section -> Drop down menu on Nav bar that link to subsection of sections
+Home Page -> Including Nav bar that can directly link to other section -> Drop down menu on Nav bar that link to a subsection of sections
 
-- Login portal to login page to let user access user/ admin's dashboard
-- Search function to search keyword on website (similar to ctrl+f) 
+- Login portal to the login page to let the user access user/ admin's dashboard
+- Search function to search keywords on website (similar to ctrl+f) 
 
-- Main content including news and activities and incoming event will be display in picture mode user will be able to click the picture and link to that specific page
-- under main content there will be a section showing "Sponser" where it shows who are currently supporting LongBeach Place and nav link to there home page 
-- Contact us section will include subscribe news letter button, social media link
+- Main content, including news and activities and incoming events, will be displayed in picture mode. The user will be able to click the picture and link to that specific page
+- Under main content, there will be a section showing "Sponsor," where it shows who is currently supporting LongBeach Place and nav link to their home page 
+- Contact us section will include subscribing newsletter button, social media link
 
-Nav bar contains :
+The Nav bar contains :
 
 - About Us 
 - Activities
@@ -213,27 +213,27 @@ Nav bar contains :
 - RoomHire
 - Showcase
 
-![Website Structure ver2.0](Diagram\Website Structure ver2.0.png)
+![Website Structure ver2.0](/Diagram/Website Structure ver2.0.png)
 
 --------
 
 **Website Structure - Content Ver 3.0 (Design on Week 5 ):**
 
-After meeting with client we made few adjustment to our content page
+After meeting with the client, we made a few adjustments to our content page.
 
-1. Main content will be a animation picture slide - each silde will contain a unique animation and content
+1. The main content will be an animation picture slide - each slide will contain a unique animation and content
 
 ![Swiper Slider for React Native and Web](https://reactnativeexample.com/content/images/2019/03/Nativeswipt.gif)
 
-2. "Sponsor" will be arrange to "Support by"
+2. "Sponsor" will be arranged to "Support by"
 
-3. Search function now is been remove - replace with a potential idea (implement of Chat Bot )
+3. The search function has now been removed - replaced with a potential idea (implement of Chat Bot )
 
 4. Add map function add the contact section to indicate the location of the map
 
-5. Separate admin login from user login - admin is now for edit website mainly 
+5. Separate admin login from user login - admin is now for editing the website mainly 
 
-   ![Website Structure ver 3.0](Diagram\Website Structure ver 3.0.png)
+   ![Website Structure ver 3.0](/Diagram/Website Structure ver 3.0.png)
 
 -------
 
