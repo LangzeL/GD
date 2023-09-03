@@ -79,7 +79,7 @@
 | **Security Analyst**       | Shanqing Huang   |
 | **Monitoring Engineer**    | Wenda Zhang      |
 
-![CI,CD PIPLINE](Diagram\CI,CD%20PIPLINE.png)
+![CI,CD PIPLINE](Diagram/CI,CD%20PIPLINE.png)
 
 ### Main Phases of CI/CD:
 
@@ -186,9 +186,9 @@
 
 **Website Structure - Content Ver 2.0 (Design on Week 4 ):**
 
-The content page's UML has been added to the GitHub repository under the folder diagram. ([Uml.pdf](Diagram\Uml.pdf)) 
+The content page's UML has been added to the GitHub repository under the folder diagram. ([Uml.pdf](Diagram/Uml.pdf)) 
 
-The use case has been added to the GitHub repository under the folder diagram ([use case diagram.pdf](Diagram\use%20case%20diagram.pdf))
+The use case has been added to the GitHub repository under the folder diagram ([use case diagram.pdf](Diagram/use%20case%20diagram.pdf))
 
 We decided that the content page should contain the following elements:
 
@@ -213,7 +213,7 @@ The Nav bar contains :
 - RoomHire
 - Showcase
 
-![Website Structure ver2.0](Diagram\Website%20Structure%20ver2.0.png)
+![Website Structure ver2.0](Diagram/Website%20Structure%20ver2.0.png)
 
 --------
 
@@ -233,7 +233,7 @@ After meeting with the client, we made a few adjustments to our content page.
 
 5. Separate admin login from user login - admin is now for editing the website mainly 
 
-   ![Website Structure ver 3.0](Diagram\Website%20Structure%20ver3.0.png)
+   ![Website Structure ver 3.0](Diagram/Website%20Structure%20ver3.0.png)
 
 -------
 
