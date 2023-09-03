@@ -68,9 +68,44 @@
 | **Code maintenance**       | Shanqing Huang  |
 | **Debug+test**             | Yilin Chen      |
 
+| Operation Team             |                  |
+| -------------------------- | ---------------- |
+| **Role**                   | **Student Name** |
+| **Operations Manager**     | Langze Lu        |
+| **System Administrator**   | Wenda Zhang      |
+| **DevOps Engineer**        | Shanqing Huang   |
+| **Release Manager**        | Jing Yun Tan     |
+| **Database Administrator** | Yilin Chen       |
+| **Security Analyst**       | Shanqing Huang   |
+| **Monitoring Engineer**    | Wenda Zhang      |
+
+![CI,CD PIPLINE](Diagram\CI,CD PIPLINE.png)
+
+### Main Phases of CI/CD:
+
+1. **Code Commit**: Developers complete code changes and commit them to a version control system like Git.
+2. **Build** (planning): Upon receiving new code, automated tools like Jenkins, GitLab CI, or GitHub Actions compile it and create executable files.
+3. **Test**: After or parallel to the build phase, unit tests, integration tests, and other automated tests are run.
+4. **Deploy**: Once tests pass, the code is automatically deployed to a pre-production or production environment.
+5. **Validation**: After deployment, a series of checks are conducted to ensure code correctness and performance.
+6. **Monitoring**: Once the code is deployed and validated, it is continuously monitored for performance and error rates.
+7. **Feedback**: Feedback is collected and iterative development continues.
+
+### Connecting Development and Operations Teams:
+
+- **Development Team**: Responsible for code development, commits, and unit testing. They are generally more closely associated with the earlier stages of the CI/CD process (Code Commit, Build, and Test).
+- **Operations Team**: Responsible for the deployment, monitoring, and maintenance of the code. They are generally more closely associated with the later stages of the CI/CD process (Deploy, Validation, and Monitoring).
+- **DevOps**: In some organizations, the development and operations teams are integrated into a single DevOps team responsible for the entire CI/CD process.
+
+### Benefits of Automation:
+
+1. **Rapid Iteration**: Automation allows teams to make code changes and deployments faster.
+2. **Quality Assurance**: Automated testing quickly discovers issues after each code change.
+3. **Efficient Collaboration**: Automation allows development and operations teams to collaborate more efficiently.
+
 ------------------------
 
-   ## Website Structure:
+   ## **Website Structure Ver 1.0 (Design on Week 2 ):**
 
    #### 1. **Home Page**
 
@@ -144,6 +179,65 @@
    3. **Other Tools**:
       - **Payment Gateway**: Stripe or PayPal for payment and donation processing.
       - **Calendar**: FullCalendar.js (for displaying and managing events)
+      
+      
+
+----------------------
+
+**Website Structure - Content Ver 2.0 (Design on Week 4 ):**
+
+Content page's UML has been added to the Github repository under folder diagram. ([Uml.pdf](Diagram\Uml.pdf)) 
+
+Use case has been added to the Github repository under folder diagram ([use case digram.pdf](Diagram\use case digram.pdf))
+
+We decide content page show contain the following elements:
+
+Home Page -> Including Nav bar that can directly link to other section -> Drop down menu on Nav bar that link to subsection of sections
+
+- Login portal to login page to let user access user/ admin's dashboard
+- Search function to search keyword on website (similar to ctrl+f) 
+
+- Main content including news and activities and incoming event will be display in picture mode user will be able to click the picture and link to that specific page
+- under main content there will be a section showing "Sponser" where it shows who are currently supporting LongBeach Place and nav link to there home page 
+- Contact us section will include subscribe news letter button, social media link
+
+Nav bar contains :
+
+- About Us 
+- Activities
+- Contact
+- Events
+- GetInvolved
+- Home
+- Login
+- RoomHire
+- Showcase
+
+![Website Structure ver2.0](Diagram\Website Structure ver2.0.png)
+
+--------
+
+**Website Structure - Content Ver 3.0 (Design on Week 5 ):**
+
+After meeting with client we made few adjustment to our content page
+
+1. Main content will be a animation picture slide - each silde will contain a unique animation and content
+
+![Swiper Slider for React Native and Web](https://reactnativeexample.com/content/images/2019/03/Nativeswipt.gif)
+
+2. "Sponsor" will be arrange to "Support by"
+
+3. Search function now is been remove - replace with a potential idea (implement of Chat Bot )
+
+4. Add map function add the contact section to indicate the location of the map
+
+5. Separate admin login from user login - admin is now for edit website mainly 
+
+   ![Website Structure ver 3.0](Diagram\Website Structure ver 3.0.png)
+
+-------
+
+
 
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -445,8 +539,12 @@ Given the current progress and challenges, the next steps involve focusing on im
 
 ### Week 6
 
-#### Group Goal and Task ：
+#### Group Goal and Task ：Decide how edit function can be achieve on website
 
 #### Meeting Overview:
 
-   ==Meeting 1 8th Aug Via Zoom==
+   ==Meeting 1 3rd Sep Via Zoom==
+
+   Admin: Langze L
+
+   Paticipent: Wenda Z, Yilin C, Jinyun T, Shanqing H
