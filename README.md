@@ -1,3 +1,33 @@
+# COMP30022 IT Project - Team006 LongPlaceBeach Website Development Documentation
+--------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+## Table of Contents
+
+- [Website Developing Work Progress](#Website-Developing-Work-Progress)
+- [Team structure](#Team-structure)
+- [Main Phases of CI/CD（Planning）](#Main-Phases-of-CI/CD（Planning）)
+  - [Connecting Development and Operations Teams](#Connecting-Development-and-Operations-Teams)
+  - [Benefits of Automation](#Benefits-of-Automation)
+- [Website Development Version Notes](#Website-Development-Version-Notes)
+  - [Features](#Features)
+  - [Recommended Technologies](#Recommended-Technologies)
+  - [Website Structure Ver 1.0 (Design on Week 2)](#Website-Structure-Ver-1.0)
+  - [Website Structure - Content Ver 2.0 (Design on Week 4)](#Website-Structure-Content-Ver-2.0)
+  - [Website Structure - Content Ver 3.0 (Design on Week 5)](#Website-Structure-Content-Ver-3.0)
+- [Sprint Plan for Longplace Beach Website Development](#Sprint-Plan-for-LongplaceBeach-Website-Development)
+  - [Sprint 1 (Week 1 - Week 2)](#Sprint-1)
+  - [Sprint 2 (Week 3 - Week 4)](#Sprint-2)
+  - [Sprint 3 (Week 5- Week 6)](#Sprint-3)
+- [Weekly objectives, tasks and meeting notes](#Weekly-objectives-tasks-and-meeting-notes)
+  - [Week 1](#Week-1)
+  - [Week 2](#Week-2)
+  - [Week 3](#Week-3)
+  - [Week 4](#Week-4)
+  - [Week 5](#Week-5)
+  - [Week 6](#Week-6)
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 ## Website Developing Work Progress
 
 <table border="1">
@@ -30,8 +60,8 @@
         </tr>
         <tr>
             <td><strong>Back-end Development</strong></td>
-            <td colspan="5" style="border-right: none;"></td>
-            <td colspan="7" style="border-left: none;"><span style="color:rgb(0, 150, 139)">###</span><span style="color:rgb(255, 192, 203)">### </span><span><strong>Completed ##%</strong></span></td>
+            <td colspan="7" style="border-right: none;"></td>
+            <td colspan="5" style="border-left: none;"><span style="color:rgb(0, 150, 139)">████████████</span><span style="color:rgb(255, 192, 203)">█ </span><span><strong>Completed 90%</strong></span></td>
         </tr>
         <tr>
             <td><strong>Testing & Feedback</strong></td>
@@ -46,7 +76,7 @@
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-**Team structure**
+## Team structure
 
 | **Role**           | **Student Name** |
 | ------------------ | ---------------- |
@@ -68,7 +98,7 @@
 | **Code maintenance**       | Shanqing Huang  |
 | **Debug+test**             | Yilin Chen      |
 
-| Operation Team             |                  |
+| **Operation Team**              |                  |
 | -------------------------- | ---------------- |
 | **Role**                   | **Student Name** |
 | **Operations Manager**     | Langze Lu        |
@@ -79,9 +109,11 @@
 | **Security Analyst**       | Shanqing Huang   |
 | **Monitoring Engineer**    | Wenda Zhang      |
 
+--------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 ![CI,CD PIPLINE](Diagram/CI,CD%20PIPLINE.png)
 
-### Main Phases of CI/CD（planning）:
+## Main Phases of CI/CD（Planning）:
 
 1. **Code Commit**: Developers complete code changes and commit them to a version control system like Git.
 2. **Build** (planning): Upon receiving new code, automated tools like Jenkins, GitLab CI, or GitHub Actions compile it and create executable files.
@@ -105,7 +137,31 @@
 
 ------------------------
 
-   ## **Website Structure Ver 1.0 (Design on Week 2 ):**
+## Website Development Version Notes:
+
+   ### Features:
+
+   1. **Responsive Design**: Ensure that the website is accessible and looks great on all devices, from desktops to mobile phones.
+   2. **Accessibility Features**: Text-to-speech, adjustable font size, high contrast mode, etc.
+   3. **Backend System**: To manage members, attendees, payments, and notifications.
+   4. **Social Media Integration**: Links and possibly feeds from platforms like Facebook.
+
+   ### Recommended Technologies:
+
+   1. **Frontend**:
+      - **Framework**: ReactJS with Next.js (for server-side rendering and better SEO)
+      - **Styling**: CSS Frameworks like Bootstrap or TailwindCSS (for a modern look and responsiveness)
+      - **Animations**: AOS (Animate On Scroll) for scroll effects.
+   2. **Backend**:
+      - **Framework**: Node.js with Express.js
+      - **Database**: MongoDB or PostgreSQL
+      - **Authentication**: Passport.js (for member login and registration)
+      - **Notifications**: NodeMailer (for email notifications)
+   3. **Other Tools**:
+      - **Payment Gateway**: Stripe or PayPal for payment and donation processing.
+      - **Calendar**: FullCalendar.js (for displaying and managing events)
+
+   ### **Website Structure Ver 1.0 (Design on Week 2):**
 
    #### 1. **Home Page**
 
@@ -158,33 +214,9 @@
    - Direct phone and email links.
    - Links to social media pages.
 
-   ### Features:
+------------------------
 
-   1. **Responsive Design**: Ensure that the website is accessible and looks great on all devices, from desktops to mobile phones.
-   2. **Accessibility Features**: Text-to-speech, adjustable font size, high contrast mode, etc.
-   3. **Backend System**: To manage members, attendees, payments, and notifications.
-   4. **Social Media Integration**: Links and possibly feeds from platforms like Facebook.
-
-   ### Recommended Technologies:
-
-   1. **Frontend**:
-      - **Framework**: ReactJS with Next.js (for server-side rendering and better SEO)
-      - **Styling**: CSS Frameworks like Bootstrap or TailwindCSS (for a modern look and responsiveness)
-      - **Animations**: AOS (Animate On Scroll) for scroll effects.
-   2. **Backend**:
-      - **Framework**: Node.js with Express.js
-      - **Database**: MongoDB or PostgreSQL
-      - **Authentication**: Passport.js (for member login and registration)
-      - **Notifications**: NodeMailer (for email notifications)
-   3. **Other Tools**:
-      - **Payment Gateway**: Stripe or PayPal for payment and donation processing.
-      - **Calendar**: FullCalendar.js (for displaying and managing events)
-      
-      
-
-----------------------
-
-## **Website Structure - Content Ver 2.0 (Design on Week 4 ):**
+### **Website Structure - Content Ver 2.0 (Design on Week 4):**
 
 The content page's UML has been added to the GitHub repository under the folder diagram. ([Uml.pdf](Diagram/Uml.pdf)) 
 
@@ -217,7 +249,7 @@ The Nav bar contains :
 
 --------
 
-## **Website Structure - Content Ver 3.0 (Design on Week 5 ):**
+### **Website Structure - Content Ver 3.0 (Design on Week 5):**
 
 After meeting with the client, we made a few adjustments to our content page.
 
@@ -291,7 +323,7 @@ After meeting with the client, we made a few adjustments to our content page.
 
   ------
 
-  ### Sprint 3 (Week 5-week6)
+  ### Sprint 3 (Week 5- Week 6)
 
   #### Objective:
 
