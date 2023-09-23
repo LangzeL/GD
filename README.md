@@ -14,6 +14,7 @@
   - [Website Structure Ver 1.0 (Design on Week 2)](#Website-structure-ver-10-design-on-week-2)
   - [Website Structure - Content Ver 2.0 (Design on Week 4)](#Website-structure---content-ver-20-design-on-week-4)
   - [Website Structure - Content Ver 3.0 (Design on Week 5)](#Website-structure---content-ver-30-design-on-week-5)
+- [User Story](#User-story)
 - [Sprint Plan for Longplace Beach Website Development](#sprint-plan-for-longplace-beach-website-development)
   - [Sprint 1 (Week 1 - Week 2)](#Sprint-1-week-1---week-2)
   - [Sprint 2 (Week 3 - Week 4)](#Sprint-2-week-3---week-4)
