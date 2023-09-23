@@ -3,8 +3,6 @@
 
 ## Table of Contents
 
-## Table of Contents
-
 - [Website Developing Work Progress](#Website-Developing-Work-Progress)
 - [Team structure](#Team-structure)
 - [Main Phases of CI/CD（Planning）](#main-phases-of-cicdplanning)
