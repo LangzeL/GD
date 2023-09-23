@@ -18,6 +18,8 @@
   - [Sprint 1 (Week 1 - Week 2)](#Sprint-1-week-1---week-2)
   - [Sprint 2 (Week 3 - Week 4)](#Sprint-2-week-3---week-4)
   - [Sprint 3 (Week 5- Week 6)](#Sprint-3-week-5--week-6)
+  - [Sprint 4 (Week 7- Week 8)](#Sprint-4-week-7--week-8)
+  - [Sprint 5 (Week 9- Week 10)](#Sprint-4-week-9--week-10)
 - [Weekly objectives, tasks and meeting notes](#Weekly-objectives-tasks-and-meeting-notes)
   - [Week 1](#Week-1)
   - [Week 2](#Week-2)
@@ -25,6 +27,9 @@
   - [Week 4](#Week-4)
   - [Week 5](#Week-5)
   - [Week 6](#Week-6)
+  - [Week 7](#Week-7)
+  - [Week 8](#Week-8)
+  - [Week 9](#Week-9)
 --------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## Website Developing Work Progress
@@ -86,16 +91,19 @@
 | **UI/UX designer** | Jing Yun Tan     |
 | **Dev engineer**   | Yilin Chen       |
 
-| **Development Team**       |                 |
-| -------------------------- | --------------- |
-| **Tech Lead**              | **Wenda Zhang** |
-| **Front end dev engineer** | Langze Lu       |
-|                            | Wenda Zhang     |
-|                            | Shanqing Huang  |
-|                            | Jing Yun Tan    |
-|                            | Yilin Chen      |
-| **Code maintenance**       | Shanqing Huang  |
-| **Debug+test**             | Yilin Chen      |
+| **Development Team**                                         |                 |
+| ------------------------------------------------------------ | --------------- |
+| **Tech Lead**                                                | **Wenda Zhang** |
+| **Front end dev engineer**                                   | Langze Lu       |
+| - reason for this many front end engineer is because **content part** is a huge frontend related area with limited use of DB and backend, therefore everyone in our team were planned to contribute in frontend design | Wenda Zhang     |
+|                                                              | Shanqing Huang  |
+|                                                              | Jing Yun Tan    |
+|                                                              | Yilin Chen      |
+| **Backend dev engineer**                                     | Langze Lu       |
+|                                                              | Wenda Zhang     |
+|                                                              | Jing Yun Tan    |
+| **Code maintenance**                                         | Shanqing Huang  |
+| **Debug+test**                                               | Yilin Chen      |
 
 | **Operation Team**              |                  |
 | -------------------------- | ---------------- |
@@ -212,6 +220,50 @@
    - Contact form for inquiries.
    - Direct phone and email links.
    - Links to social media pages.
+
+-----------
+
+## User story
+
+### Member
+
+- **(HIGH)** As a member, I want to see upcoming events on the homepage so that I can quickly know about upcoming activities.
+- **(HIGH)** As a member, I want to view the upcoming events on a timetable so that I can schedule my time effectively.
+- **(HIGH)** As a member, I want to click on an event to view more detailed information about it so that I can understand what the event is about and decide whether to participate.
+- **(HIGH)** As a member, I want to experience aesthetic and responsive design on both mobile and monitor screens so that I can navigate the website comfortably on any device.
+- **(MID)** As a member, I want to sign up for events and receive notifications from these events so that I can be reminded of my participation and won’t miss them.
+- **(LOW)** As a member, I want to be able to filter the calendar through different viewing options (e.g. Term, Month, Week) so that I can view events in my preferred way.
+- **(LOW)** As a member, I want events to have different colors for easy viewing/distinction, potentially color-coded to the desired age range, so that I can quickly identify events suited to my age group.
+
+### Admins
+
+- **(HIGH)** As an admin, I want to do everything a member can do so that I can experience the website from a user’s perspective.
+- **(HIGH)** As an admin, I want to add events to the timetable so that members can view and participate in them.
+- **(HIGH)** As an admin, I want to manage/edit existing events so that I can ensure the information is always accurate and up to date.
+- **(HIGH)** As an admin, I want to delete existing events so that canceled or past events won’t clutter the timetable.
+- **(HIGH)** As an admin, I want to click on an event to view more detailed information about it so that I can review and ensure the correctness of event details.
+
+### Additional Story
+
+- **(MID)** As an admin, I want to receive notifications about user sign-ups and interactions so that I can monitor user engagement and respond to any issues or inquiries promptly.
+
+### Acceptance Criteria
+
+For each user story, you should also define acceptance criteria to know when the story is completed. For example:
+
+- **(HIGH)**
+
+   For the story "As a member, I want to see upcoming events on the homepage", the acceptance criterion could be:
+
+  - Given that there are upcoming events, when a member visits the homepage, then the member should see a list or a calendar view of the upcoming events.
+
+### Definition of Done
+
+- All acceptance criteria are met.
+- Code has been reviewed and approved.
+- All tests pass.
+- The feature has been documented.
+- The feature has been deployed and verified in the production environment.
 
 ------------------------
 
@@ -348,6 +400,76 @@ After meeting with the client, we made a few adjustments to our content page.
   - **Quick Review**: Made significant progress in implementing client's feedback and started working on advanced features like the toolbar, Navbar, and admin dashboard.
   - **Positive Feedback**: The client was pleased with the prompt implementation of their feedback and the direction in which the project is headed.
   - **Reflect on Roadblocks and Improvements**: The major challenge remains the edit function's implementation, requiring intricate front-end to back-end communication. Need to speed up development in this area and consider technical solutions to ease the process. More frequent client meetings could also be beneficial for clarifying feature expectations.
+  
+  ----------
+  
+  - ### Sprint 4 (Week 7 - Week 8)
+  
+    #### Objective:
+  
+    - Development and Refinement of Edit Function and Mobile Responsiveness
+  
+    #### Tasks:
+  
+    1. **Week 7:**
+       - Develop a basic toolbar and scroll section for the edit function.
+       - Develop a prototype where each page's preview is displayed on the screen.
+       - Create a preliminary add text function where edited content is stored locally.
+       - Begin discussions and planning on how to store edited content on the server/database.
+       - Start working on the logic for the ‘Add Image’ function.
+       - Begin developing mobile responsiveness, focusing primarily on adapting the top title and navigation bar for mobile view.
+    2. **Week 8:**
+       - Establish the basic structure for the GrapesJS editor function and fix any identified bugs in the preview page.
+       - Complete the admin login, but leave the work on password verification to continue in the next sprint.
+       - Finalize the mobile adaptation for all pages and discuss any special requirements for images with the client.
+       - Discuss how the edit function can be beautified and actually connected to the webpages for a preview.
+       - Start working on developing different buttons for different functions based on the edit function.
+  
+    #### Deliverables:
+  
+    - Functional and user-friendly edit function with a basic toolbar and scroll section.
+    - Prototype displaying each page's preview on the screen.
+    - Mobile-responsive design, especially focusing on top title and navigation bar.
+    - Initial setup of the GrapesJS editor function.
+    - Admin login (password verification pending).
+  
+    #### Sprint Highlights:
+  
+    - **Quick Review**: The team was able to set up basic structures for crucial features such as the edit function and the GrapesJS editor. Mobile responsiveness was also given attention.
+    - **Positive Feedback**: The client was content with the basic structures laid out for the different functionalities, and the emphasis placed on user-friendly design was appreciated.
+    - **Reflect on Roadblocks and Improvements**: The primary challenge was refining the edit function and planning its connection with the database. A need for detailed technical discussions and possible expert consultations were identified.
+  
+    ---------
+  
+    ### Sprint 6 (Week 9 - Week 10)
+  
+    #### Objective:
+  
+    - Finalization and Deployment of Project and Building Database
+  
+    #### Tasks:
+  
+    1. **Week 9:**
+       - Meet with the client to discuss any additional requirements, clarifications, or changes needed.
+       - Work on any additional requirements or changes proposed by the client.
+       - Prepare the database structure and begin the initial phase of deployment for both the front and back ends.
+    2. **Week 10:**
+       - Complete any pending client requests and make final refinements to the project based on client feedback.
+       - Finalize and implement the deployment plan for both the front and back ends.
+       - Complete building and testing the database, ensuring all data is correctly stored and retrieved.
+       - Conduct final tests to ensure all features are working seamlessly.
+  
+    #### Deliverables:
+  
+    - A fully-functional project deployed with a secure and efficient database.
+    - All client requirements addressed, and final refinements made based on client feedback.
+    - Complete documentation detailing the deployment process and database structure.
+  
+    #### Sprint Highlights:
+  
+    - **Quick Review**: The team successfully finalized and deployed the project, addressing all client requirements and feedback.
+    - **Positive Feedback**: The client was extremely satisfied with the final product, praising the team's commitment and the project's functionality, adaptability, and user-friendly design.
+    - **Reflect on Roadblocks and Improvements**: Finalizing the deployment and ensuring seamless functionality of all features were challenging. Regular monitoring and immediate addressing of any issues post-deployment were deemed necessary.
 
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -672,7 +794,232 @@ Given the current progress and challenges, the next steps involve focusing on im
 1. Page Navigation
    - Keep the toolbar constant while navigating between different pages.
 
-
-
 ------
 
+### Week 7
+
+#### Group Goal and Task:
+
+Decide on solutions for the current challenges and continue the development of the edit function and responsive design.
+
+#### Meeting Overview:
+
+==Meeting 1 7th Sep Via Zoom==
+
+Admin: Langze L
+
+Participant: Wenda Z, Yilin C, Jinyun T, Shanqing H
+
+**Current Progress:**
+
+#### Edit Function
+
+1. Basic Toolbar:
+   - A basic toolbar has been implemented, allowing users to interact with and modify the website’s elements.
+2. Scroll Section:
+   - The scroll section is fundamentally shaped, allowing for smoother navigation and user experience.
+3. Page Preview:
+   - Previews for each page are being displayed on the screen, allowing users to view the modifications in real-time.
+4. Add Text Function:
+   - Initial creation is complete, where edited content is currently stored in a local port. Discussions with the tutor about storing the data on the server/DB are planned for next week.
+
+**Current Challenges:**
+
+1. Logic for Add Image Function:
+   - Developing a logical flow for creating and adding the image function is proving to be a challenge.
+2. Integrating Added Elements into Preview Window:
+   - There are difficulties in integrating the added elements into the preview window to achieve a WYSIWYG (What You See Is What You Get) interface.
+3. DB Connection:
+   - Establishing a connection to the database and ensuring stable data transfer and storage is a critical challenge.
+4. Admin Login Verification:
+   - Implementing a secure and reliable verification method for admin login is pending.
+5. Server OS and Running the Web App:
+   - Decisions on the server operating system and the process of running the web app, especially those created with React, are yet to be made.
+6. Mobile Editing:
+   - Consideration and implementation of edit functionalities for mobile are still in discussion but are not prioritized.
+
+#### Responsive Design
+
+- The team is continuing to progress on implementing responsive design to ensure the website is accessible and user-friendly on various devices. Another meeting is scheduled for (Day) at 8 pm to review the ongoing developments.
+
+This meeting serves to evaluate the current state of the project, focusing on resolving the existing challenges and optimizing the developed features. Further discussions and developments are aimed at refining the edit function, ensuring secure and stable data interactions, and enhancing the user experience across different devices.
+
+
+
+==Meeting 2 10th Sep Via Zoom==
+
+Admin: Langze L
+
+Participant: Wenda Z, Yilin C, Jinyun T, Shanqing H
+
+**Current Progress:**
+
+1. Contact Section Updates:
+   - Enhancements were made in the contact section focusing on feedback and the submission form to optimize user interactions.
+
+#### Edit Function
+
+1. Basic Toolbar:
+   - The fundamental toolbar is in place, facilitating user interactions for modifying website components.
+2. Scroll Section:
+   - The scroll section is fundamentally structured, offering smoother navigation and improved user experience.
+3. Page Preview:
+   - Previews for each page are displayed on the screen, offering users real-time views of modifications.
+4. Add Text Function:
+   - The initial creation is complete, with edited content currently stored in a local port. Discussions with the tutor about storing the data on the server/DB are planned for the upcoming week.
+5. Drag and Drop Feature:
+   - A simple Drag and Drop feature has been added, allowing preliminary movement of editable content.
+
+**Current Challenges:**
+
+1. Logic for Add Image Function:
+   - Creating a logical process for adding the image function remains a significant challenge.
+2. Integrating Added Elements into Preview Window:
+   - There are difficulties in integrating added elements into the preview window to achieve a WYSIWYG (What You See Is What You Get) interface.
+3. DB Connection:
+   - Connection to the database and ensuring stable and secure data interaction is still pending.
+4. Admin Login Verification:
+   - Developing a secure and reliable method for admin login verification is yet to be done.
+5. Server OS and Running the Web App:
+   - Choosing the server operating system and determining how to run the React web app are still under consideration.
+6. Mobile Editing:
+   - Development of editing functionalities for mobile is in discussion but is not a priority at this moment.
+
+#### Responsive Design
+
+1. Initial Adaptations:
+   - Preliminary adaptations have been made, mainly modifying the top title to be mobile-responsive.
+2. Navbar Modifications:
+   - The plan is to design the navbar as an expandable drop table for mobile.
+3. Subsection Formatting:
+   - All subsections are being designed to have a vertical format on mobile.
+4. Text Modifications:
+   - The amount of text is being relatively reduced for mobile.
+5. CSS Formatting:
+   - CSS formatting is primarily being done using percentages to ensure responsiveness.
+
+This meeting focused on reviewing the advancements made in the project, particularly in refining the edit function and improving the responsive design. The team also discussed the challenges encountered and planned the subsequent steps to address them efficiently. The objective is to continue the development process and resolve the existing issues to enhance user experience and interaction across different platforms.
+
+----------------------
+
+### Week 8
+
+#### Group Goal and Task:
+
+Focus on advancing the editor functionality, ensuring mobile adaptability, and refining user interaction elements like the navbar and edit functions. The team aims to address any existing bugs and integrate the developed features seamlessly.
+
+#### Meeting Overview:
+
+==Meeting 1 14th Sep Via Zoom==
+
+Admin: Langze L
+
+Participant: Wenda Z, Yilin C, Jinyun T, Shanqing H
+
+**Current Progress:**
+
+1. GrapesJS Editor Function:
+   - The prototype of the GrapesJS editor function has been established, marking a significant advancement in the editing capabilities of the project.
+2. Preview Page:
+   - The preview page is under development, with identified bugs that need urgent attention and resolution.
+3. Admin Login:
+   - The admin login has been successfully implemented, but password verification needs further discussions with Chris in the upcoming week.
+4. Mobile Adaptation:
+   - Adaptations for mobile have been successfully implemented for the 'Activities' and 'About Us' sections, improving the project's responsiveness and user interaction on mobile platforms.
+
+**Next Steps:**
+
+1. **Navbar as Burger Menu:**
+   - The next goal is to transform the navbar into a burger menu, optimizing the interface and user navigation experience on different devices.
+2. **Refinement of Edit Function:**
+   - The edit function needs to be beautified and effectively connected to the web page, specifically focusing on the preview aspect.
+3. **Extension of Different Functions:**
+   - The team aims to extend different functions to create distinct buttons, enhancing user interaction and experience.
+
+In this meeting, the team reviewed the progress made, focusing on the establishment of the GrapesJS editor function and the improvements in mobile adaptation. The identified bugs and the refinement needed in the edit function and navbar were discussed. The upcoming tasks are directed towards enhancing the user interface, improving navigation, and ensuring the seamless integration of the developed features, aiming for a polished and user-friendly end product.
+
+#### Meeting Overview:
+
+==Meeting 2 17th Sep Via Zoom==
+
+Admin: Langze L
+
+Participant: Wenda Z, Yilin C, Jinyun T, Shanqing H
+
+**Based on the updates from Meeting 1, the focus areas for Meeting 2 are as follows:**
+
+**Current Progress:**
+
+1. GrapesJS Editor Function:
+   - The foundational structure for the GrapesJS editor function has been set up. The team is progressing well in developing the editing capabilities of the project.
+2. Preview Page:
+   - The development of the preview page is in progress. However, there are bugs that have been identified and need to be addressed and rectified immediately.
+3. Admin Login:
+   - The admin login functionality has been implemented successfully, but the password verification process needs further refinement and will be discussed with Chris in the coming week.
+4. Mobile Adaptation:
+   - Significant progress has been made in adapting almost all pages for mobile interfaces. However, there are specific requirements regarding images that need to be discussed further with the client.
+5. Edit Function and Database Connection:
+   - Consideration is being given to how the edit function will connect with the database and how data will be stored in a backend setup.
+
+**Next Steps:**
+
+1. Resolution of Bugs in Preview Page:
+   - The team needs to work on resolving the identified bugs in the preview page to ensure smooth functionality.
+2. Finalization of Mobile Adaptation:
+   - The team needs to finalize the mobile adaptation of all pages and discuss any additional requirements or modifications needed for images with the client.
+3. Connection of Edit Function with Database:
+   - The team needs to decide on the methods to connect the edit function with the database and determine the strategies for data storage in the backend.
+4. Further Discussions with Client and Chris:
+   - The team will need to have further discussions with the client regarding image requirements and with Chris regarding the password verification process.
+
+In Meeting 2, the team will delve deeper into refining the developed functionalities based on the updates from Meeting 1. The resolution of bugs, finalization of mobile adaptation, and decisions regarding database connections are of paramount importance. The team aims to ensure the seamless integration of features and address any concerns or additional requirements with the client and other stakeholders.
+
+--------------
+
+### Week 9
+
+#### Group Goal and Task:
+
+The group is focusing on consolidating the work done so far, gathering final content from the client, and preparing for the deployment phase. The feedback and additional requirements from the client will be crucial in refining the final product.
+
+#### Meeting Overview:
+
+==Meeting 1 21st Sep via zoomOnline==
+
+   Admin: Langze L
+
+   Paticipent: Wenda Z, Yilin C, Jinyun T, Shanqing H
+
+   Guest: Client(Cat Beed) 
+
+**Agenda for Client Meeting:**
+
+1. Subscription Feature:
+   - Clarification is needed on whether a subscription feature is required since a similar functionality is already present in the membership module.
+2. Content Details:
+   - We need all content details, including images and text for every section, particularly the list for the event.
+3. Header Styling:
+   - We need confirmation on whether all header colors and sizes, as well as background images, should be uniform across the platform.
+4. User and Admin Login Integration:
+   - Clarification is needed on whether user login and our admin edit functionalities will be integrated eventually.
+5. Client Satisfaction and Feedback:
+   - We want to know if the client is satisfied with our current progress and whether there are any areas, both in functionality and design, that require improvement or refinement.
+6. GrapesJS Tutorial:
+   - We plan to provide a tutorial or guide on using GrapesJS, possibly in PDF format.
+7. Navbar Color Scheme:
+   - We seek the client’s opinion on whether the current yellow font color in the navbar should be changed to orange.
+8. New Logo Update:
+   - We need to know if the new logo has been finalized and is ready for integration.
+9. Database Requirements:
+   - We need to confirm the data that needs to be stored in the database, including admin IDs and passwords, edited CSS/HTML, and company details like name and email.
+
+**Client Feedback Summary:** The client is extremely satisfied with the current progress. The team has successfully met expectations, and the developed functionalities align well with the client’s vision.
+
+**Next Steps:**
+
+1. Database and Deployment:
+   - Based on the client’s feedback and additional requirements, the group will focus on finalizing the database and preparing for the deployment of the front and back ends.
+2. Finalizing Details:
+   - Any final changes or refinements, especially those concerning content details, header styling, and color schemes, will be implemented as per the client's feedback.
+
+In this meeting, the dialogue with the client will be pivotal in steering the project towards its final form. Understanding the client’s satisfaction level and additional requirements will help in making informed decisions during the final stages of development. The meeting aims to ensure that all functionalities and design elements align perfectly with the client’s vision and expectations, setting the stage for the successful deployment of the project.
