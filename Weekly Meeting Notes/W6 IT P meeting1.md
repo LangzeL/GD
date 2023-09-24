@@ -1,41 +1,53 @@
-**Progress check**
+### Progress Check
 
-1. docker compose diagram
+1. **Docker Compose Diagram**
+   - A visual representation of how Docker services are orchestrated.
+2. **Database Design Diagram**
+   - A visual representation outlining the structure of the database, including tables, fields, and how they are interconnected.
+3. **Reuse Plan**
+   - A strategic plan indicating how existing assets, code, or functionalities can be reused to save time and resources.
+4. **Layered Architecture Diagram**
+   - A visual representation of the software architecture, depicting different layers of abstraction and how they interact.
 
-   
+### Website Design Features
 
-2. database design diagram
+#### Client Requirements:
 
-   
+- The client requires a toolbar and a navbar allowing the admin to switch between different pages at any time.
+- Next to the toolbar should be the entire webpage, and the client desires intuitive interaction, allowing sections or content of the webpage to be modified upon clicking.
+- The contents such as events, courses, etc., are to be stored in the database.
 
-3. reuse plan
+#### Toolbar:
 
-   
+##### Add Element:
 
-4. layered architecture diagram
+- **Text Editing:**
+  - The client should be able to edit text, including text color, size, and font. The default font and the currently used font should be available.
+- **Image Editing:**
+  - Clients should be able to upload images as per their requirements. However, a specific format will be defined, and images exceeding the format size will need to be cropped.
 
-网站设计功能
+##### Change of Subsection:
 
-比方说客户的要求是
+- Clients should be able to move different sections within the same page.
 
-- 要有一栏toolbar 然后要有一个navbar让admin可以随时切换到不同的page
+#### Navbar:
 
-- toolbar旁边就应该是整个网页 然后客户想要直觉式交互 即点击就能更改网页的section 或者内容
-- 然后里面的content/event/course..之类的内容都会存放在DB里
+- For page navigation.
+- The toolbar remains constant.
 
-Toolbar
+### Conceptual Design:
 
-Add element
+#### Toolbar:
 
-- 文字编辑 ->文字颜色 大小 default的font+我们现在用的font
-- 图片编辑 客户可以根据需要 上传他们想要的照片 但是我们会定义一个格式 如果超出格式的大小 要crop size
+- Text Editor:
+  - Allows for modifications in text color, size, and font. Provides options for the default font and the current font in use.
+- Image Editor:
+  - Enables clients to upload images as needed, with a specific format defined. Images exceeding the format size must be cropped to fit.
 
-Change of Subsection
+#### Subsection Modification:
 
-- 让客户可以移动不同的section - 在同一页面内
+- Empowers clients to rearrange different sections within the same page, providing flexibility in displaying content as per preference.
 
-Navbar
+#### Navbar:
 
-页面换页
-
-Tool bar保持不变
+- Facilitates seamless navigation between pages, with the toolbar remaining constant, ensuring uniformity and ease of access across different sections of the website.

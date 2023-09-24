@@ -1,24 +1,34 @@
-目前的进度 
+### Current Progress
 
-**Edit function**
+#### Edit Function:
 
-- 有基本的toolbar
-- scroll section也基本成型
-- 然后每个page的preview会显示在屏幕上
-- add text function的初步创建 目前编辑内容会被储存在本地端口 ->下周可以问一下tutor关于储存在服务器/**db**
+- Basic toolbar has been established.
+- Scroll section is essentially formed.
+- Preview of each page is displayed on the screen.
+- Initial creation of the add text function; currently, edited content is stored locally -> Next week, we can ask the tutor about storing on the server/**db**.
 
-目前遇到的问题
+### Current Challenges:
 
-- Add image function的创建逻辑
-- 还有如何将添加的元素加进preview的窗口 即所见即所得
-- db的连接
-- admin登陆的验证
-- 服务器的操作系统 如何运行网页app ->react
-- 移动端的edit //可以不做
+- Logical creation of the Add image function.
+- How to incorporate added elements into the preview window, achieving a WYSIWYG (What You See Is What You Get) environment.
+- Connection to the database.
+- Verification of admin login.
+- Operating system of the server and how to run the web app using React.
+- Edit function on mobile devices // may not be necessary to implement.
 
-**Responsive**
+### Responsive Design:
 
-继续process现有的进度 周天晚上8点再meeting
+- Continue to progress with the current development and schedule another meeting on Sunday at 8 PM to discuss further.
 
+### Next Steps:
 
-
+1. **Resolve Current Challenges:**
+   - Work on resolving the current challenges, focusing on logical creation of the image function and achieving a seamless WYSIWYG environment.
+2. **Database Connection and Admin Verification:**
+   - Establish a secure connection to the database and implement robust verification mechanisms for admin login.
+3. **Server and Web App Operation:**
+   - Determine the operating system of the server and figure out the necessary configurations and setups to run the React web app effectively.
+4. **Responsive Design:**
+   - Continue refining responsive design to ensure optimal viewing and interaction across a wide range of devices.
+5. **Scheduled Meeting:**
+   - Reconvene on Sunday at 8 PM to review progress, discuss any emerging issues, and plan the next steps in the development process.

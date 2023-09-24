@@ -1,34 +1,20 @@
-**现有进度**
+### Current Progress
 
-Home界面基本成型
+- The Home interface is basically formed.
+- Layouts are available for each subsection.
+- The Login page is also available.
+- The map is ready but not added yet.
 
-每个subsection都有layout
+### Current Challenges
 
-Loginpage也有了
+- The Google API key is not provided by the client.
+- Implementation of the Edit feature. The client wants an entire page with a toolbar on the left for intuitive website changes.
+- Admin login and the associated determinations for admin dashboard/edit board.
 
-//地图有了但未添加
+### Assignment for the Next Phase
 
+- To be determined in tomorrow's meeting.
 
+### Brief on Tomorrow's Standup Responsibilities for Each Member
 
-**现有的挑战** 
-
-Google api key not provide by client
-
-Edit功能的实现
-
-- 客户想要的是一整个page然后有toolbar在左边直接直觉式更改网站
-
-Admin的login
-
-- admin的dashboard/editboard
-- admin login的一些判定
-
-
-
-**分配下一个阶段的工作**
-
-明天
-
-
-
-**然后简单说下明天standup每个人负责的部分**
+- Each member's responsibilities will be discussed and allocated during tomorrow’s standup meeting. Specific tasks and areas of focus will be assigned based on progress and current challenges.

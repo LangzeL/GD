@@ -20,7 +20,9 @@ Sidebar (Optional): Depending on the design, this might provide shortcuts or too
 
 This will let users input keywords to search for specific content on the website.
 
-需要考虑的 如何table连接url //react route dom 
+require consideration how to connect table with url //react route dom 
 
-前端如何连接后台
+frontend connection to backend
+
+
 

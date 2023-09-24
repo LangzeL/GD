@@ -1,29 +1,26 @@
-明天大概要问的问题
+### Questions to Ask Tomorrow at 10 am
 
-1. edit的feature是想有什么样的效果 比方说 普通的textbox 就能更改内容 还是想做的稍微好一点 user friendly
-
-2. 目前我们有的homepage 喜不喜欢 然后如果不喜欢具体要那些地方做更改
-
-3. admin->不同的admin权限可能不一样 然后要他们确认了之后我们才知道 我们需要的admin是哪儿一种 
-
-4. 他们网站想和竞争对手 或者同类（网站）公司不一样的点在哪 ->chatbot
-
-5. 我们这个不同section的content page是想要有一个统一的layout 还是想每个page可能有不一样的格式
-
-6. 目前网站上有一些section具有一定程度的重复 像navbar上的很多元件在contact section里重复了 ->新的contact可能就会删减掉 让网站变得极简一点
-
-7. 每个页面的内容-text的内容是不是要和原来网站的一致 
-
-8. Search function的定义还是想做出这个fuc 还是说这个就是弃案
-
-9. 然后就是封面的slide window 他的想法是不是想要做一个animation 
-
-10. edit这个功能的一些附加项 ->history restore backup 需不需要上传picture crop size 还有文件大小限制
-
-11. 服务器 ->能不能就给我们用 / 域名
-
-12. 这个网站是不是真的要用
-
-    
-
-明天10点 
+1. **Editing Feature Expectations**
+   - What kind of effect do you want for the edit feature? For example, would a standard textbox to change content suffice, or are you looking for something more user-friendly?
+2. **Feedback on Homepage**
+   - How do you feel about the current homepage? If there are any dislikes, could you specify the areas where changes are needed?
+3. **Admin Permissions**
+   - The permissions might vary between different admins. We need confirmation on what kind of admin is required for our needs.
+4. **Unique Features**
+   - What features do you want on the website to differentiate it from competitors or similar companies? For example, a chatbot.
+5. **Uniformity in Layout**
+   - Do you want a uniform layout for the different sections of the content page, or would you prefer each page to have a unique format?
+6. **Redundancy in Sections**
+   - Some sections on the current website have a degree of redundancy, like many elements in the navbar are repeated in the contact section. Is the idea to simplify the new contact section to make the website more minimalist?
+7. **Content Consistency**
+   - Should the content-text on each page be consistent with the original website?
+8. **Search Function**
+   - Do you still want to implement the search function, or is this no longer needed?
+9. **Cover Slide Window**
+   - For the cover slide window, do you want to implement animation?
+10. **Additional Features for Edit Functionality**
+    - Are there any additional features needed for the edit functionality, such as history, restore, backup, picture upload, crop size, and file size limitations?
+11. **Server and Domain**
+    - Could we get access to the server/domain?
+12. **Website Utilization**
+    - Is this website really going to be used?

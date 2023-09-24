@@ -1,97 +1,85 @@
-### 1. **首页 (Home Page) & 内容页 (Content Page)**
+1. ### 1. **Home Page & Content Page**
 
-#### 功能:
+   #### Functions.
 
-a. **链接到不同的区域 (Links to Different Areas)**
+   a. **Links to Different Areas**
 
-- 导航栏 (Navigation Bar)：提供到网站各个部分的链接。
-- 锚点链接 (Anchor Links)：允许用户快速滚动到页面的特定部分。
+   - Navigation Bar: Provides links to various parts of the website.
+   - Anchor Links: Allows users to quickly scroll to specific parts of the page.
 
-b. **添加、编辑、移除内容 (Add, Edit, Remove Content)**
+   b. **Add, Edit, Remove Content** ** Provides a back-end administration interface or dashboard.
 
-- 提供一个后台管理界面或仪表板，允许管理员轻松地进行内容管理。
+   - Provides a backend management interface or dashboard that allows administrators to easily manage content.
 
-c. **导航 (Navigation)**
+   c. **Navigation**.
 
-- 顶部导航栏：提供主要的页面链接。
-- 页脚 (Footer)：提供辅助链接，如联系方式、社交媒体链接等。
-- 侧边栏 (Optional, depending on design): 提供快速访问的链接或工具。
+   - Top Navigation Bar: Provides links to the main pages.
+   - Footer: Provides secondary links such as contact information, social media links, etc.
+   - Sidebar (Optional, depending on design): Provides quick-access links or tools. d. **UI Editor**: Provides the main page link.
 
-d. **UI编辑器 (UI Editor)**
+   d. **UI Editor**.
 
-- 为了让非技术人员也能轻松编辑网站内容，提供一个所见即所得 (WYSIWYG) 编辑器是很有必要的。
+   - A WYSIWYG (What You See Is What You Get) editor is necessary to make it easy for non-technical people to edit website content.
 
-e. **搜索功能 (Search Function)**
+   e. **Search Function**
 
-- 允许用户输入关键词查找网站内容。
+   - Allows users to enter keywords to find website content.
 
-**我们要问client的问题**
+   **Questions to ask the client
 
-1. 他想要实现的功能 content
+   1. what he wants to achieve content
 
-2. Search function需要实现的功能
+   2. what the Search function needs to accomplish
+
+      
+
+   3. show him our prototype and give him some feedback.
 
    
 
-3. 给他看一下我们的prototype 给点feedback
+   
 
+   **New website - LBP** **Home Page****
 
+   - **Home Page**.
+     - Example of an editable timeline
+     - Course link to event detail page
+   - **Menu Bar**.
+     - Home
+     - About Us
+       - History
+       - Philosophy
+       - Governance committee
+       - Meet our team
+       - Policies
+     - Activities
+       - Timetable
+       - Brochure
+       - Categories
+     - Edible Garden
+     - Events
+     - Get Involved
+       - Volunteering
+       - Tutoring
+       - Become a member
+       - Donate
+     - Room Hire
+     - Contact
+   - **Other Features**.
+     - Member Login Page
+     - Weekly schedule, reservations, personal information, enrollment history, online payment and credit.
 
+   
 
+   
 
-**New website – LBP**
+   #### Technical Realization.
 
-- **首页 (Home Page)**:
-  - 可编辑的时间表示例
-  - 课程链接到活动详细页面
-- **菜单栏 (Menu Bar)**:
-  - 首页 (Home)
-  - 关于我们 (About Us)
-    - 历史 (History)
-    - 理念 (Philosophy)
-    - 管理委员会 (Governance committee)
-    - 认识我们的团队 (Meet our team)
-    - 政策 (Policies)
-  - 活动 (Activities)
-    - 时间表 (Timetable)
-    - 宣传册 (Brochure)
-    - 类别 (Categories)
-  - 食用花园 (Edible Garden)
-  - 事件 (Events)
-  - 参与进来 (Get Involved)
-    - 志愿者 (Volunteering)
-    - 教学 (Tutoring)
-    - 成为会员 (Become a member)
-    - 捐款 (Donate)
-  - 房间租赁 (Room Hire)
-  - 联系方式 (Contact)
-- **其他功能**:
-  - 会员登录页面
-  - 每周日程、预订、个人信息、报名历史、在线支付和信用。
-
-
-
-
-
-#### 技术实现:
-
-1. **前端**
-   - **框架** : ReactJS 
-   - **样式 : Bootstrap 或 TailwindCSS
-   - **所见即所得编辑器 (WYSIWYG Editor)**: TinyMCE 或 Quill
-   - **搜索 (Search)**: 使用前端库如 Fuse.js 或整合后端搜索API
-2. **后端 (Backend)**
-   - **框架 (Framework)**: Node.js with Express.js
-   - **数据库 (Database)**: MongoDB 或 PostgreSQL
-   - **内容管理系统 (Content Management System)**: 使用现成的如 Strapi 或自行构建
-3. **其他工具 (Other Tools)**
-   - **静态文件托管 (Static Hosting)**: Netlify 或 Vercel (特别是如果使用Next.js)
-
-### 开发步骤:
-
-1. **设计稿 & 原型 (Design & Prototype)**: 使用工具如 Figma 或 Adobe XD 创建网站的设计稿和交互原型。
-2. **前端开发 (Frontend Development)**: 根据设计稿实现页面的结构和样式。
-3. **后端开发 (Backend Development)**: 设置服务器、数据库和API，实现内容管理和搜索功能。
-4. **测试 (Testing)**: 确保功能在不同的设备和浏览器上都能正常工作。
-5. **部署 (Deployment)**: 选择合适的托管服务，发布网站。
-6. **反馈 & 更新 (Feedback & Updates)**: 根据用户反馈和需求进行迭代开发。
+   1. **Front-end**
+      - **Framework** : ReactJS 
+      - **Style : Bootstrap or TailwindCSS
+      - **WYSIWYG Editor**: TinyMCE or Quill
+      - **Search**: Use front-end libraries like Fuse.js or integrate with back-end search APIs.
+   2. **Backend**: Use a front-end library such as Fuse.js or integrate a back-end search API.
+      - Framework**: Node.js with Express.js
+      - **Databases

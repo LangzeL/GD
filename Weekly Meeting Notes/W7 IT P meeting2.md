@@ -1,29 +1,41 @@
-目前的进度 
+### Current Progress
 
-更新了一下contact section里的feedback和sub form
+- Updated the feedback and sub form in the contact section.
 
-**Edit function**
+#### Edit Function:
 
-- 有基本的toolbar
-- scroll section也基本成型
-- 然后每个page的preview会显示在屏幕上
-- add text function的初步创建 目前编辑内容会被储存在本地端口 ->下周可以问一下tutor关于储存在服务器/**db**
-- 简单加了一个dnd的功能 只能够初步实现编辑内容的拖动
+- Established a basic toolbar.
+- The scroll section has essentially formed.
+- Each page's preview is displayed on the screen.
+- The initial creation of the add text function has been done; currently, edited content is stored locally -> We can ask the tutor about storing on the server/**db** next week.
+- Added a simple drag and drop (DnD) functionality, allowing for basic dragging of edited content.
 
-目前遇到的问题
+### Current Challenges:
 
-- Add image function的创建逻辑
-- 还有如何将添加的元素加进preview的窗口 即所见即所得
-- db的连接
-- admin登陆的验证
-- 服务器的操作系统 如何运行网页app ->react
-- 移动端的edit //可以不做
+- Creating logic for the Add image function.
+- Incorporating added elements into the preview window to achieve a WYSIWYG environment.
+- Connecting to the database.
+- Verifying admin login.
+- Operating system of the server and running the web app using React.
+- Editing function on mobile devices // may not be necessary to implement.
 
-**Responsive**
+### Responsive Design:
 
-- 初步做了一些适配 主要是修改了顶部title 适应移动端
-- nav bar在移动端打算做成展开式drop table
-- 所有subsection 在mobile端口都尽量做成上下格式
-- 字数在移动端做相对的删减
-- css format尽量使用百分比
+- Made some initial adaptations, mainly modifying the top title to adapt to mobile devices.
+- Planning to make the nav bar a collapsible drop table on mobile devices.
+- All subsections are designed to be vertically stacked on mobile devices.
+- Text will be relatively reduced on mobile devices.
+- CSS formats will primarily use percentages to ensure responsive design.
 
+### Next Steps:
+
+1. **Resolve Current Challenges:**
+   - Work on resolving the current challenges, focusing on creating logic for the Add image function and achieving a seamless WYSIWYG environment.
+2. **Database Connection and Admin Verification:**
+   - Establish a secure connection to the database and implement robust verification mechanisms for admin login.
+3. **Server and Web App Operation:**
+   - Determine the operating system of the server and figure out the necessary configurations and setups to run the React web app effectively.
+4. **Enhance Responsive Design:**
+   - Continue refining responsive design to ensure optimal viewing and interaction across a wide range of devices, with appropriate adaptations for mobile devices.
+5. **Scheduled Discussion with Tutor:**
+   - Discuss with the tutor regarding the storage of edited content on the server/db in the upcoming week.
