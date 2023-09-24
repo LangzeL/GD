@@ -126,27 +126,58 @@ Folder would be contain the following elements:
 
 ![CI,CD PIPLINE](Diagram/CI,CD%20PIPLINE.png)
 
-## Main Phases of CI/CD（Planning）:
+## Main Phases of CI/CD:
 
-1. **Code Commit**: Developers complete code changes and commit them to a version control system like Git.
-2. **Build** (planning): Upon receiving new code, automated tools like Jenkins, GitLab CI, or GitHub Actions compile it and create executable files.
-3. **Test**: After or parallel to the build phase, unit tests, integration tests, and other automated tests are run.
-4. **Deploy**: Once tests pass, the code is automatically deployed to a pre-production or production environment.
-5. **Validation**: After deployment, a series of checks are conducted to ensure code correctness and performance.
-6. **Monitoring**: Once the code is deployed and validated, it is continuously monitored for performance and error rates.
-7. **Feedback**: Feedback is collected and iterative development continues.
+### 1. Code Commit
 
-### Connecting Development and Operations Teams:
+- **Details:** Developers complete code changes, perform local testing, and commit them to GitHub, a version control system.
+- **Tools:** GitHub.
+- **Responsibility:** Primarily the Development Team.
 
-- **Development Team**: Responsible for code development, commits, and unit testing. They are generally more closely associated with the earlier stages of the CI/CD process (Code Commit, Build, and Test).
-- **Operations Team**: Responsible for the deployment, monitoring, and maintenance of the code. They are generally more closely associated with the later stages of the CI/CD process (Deploy, Validation, and Monitoring).
-- **DevOps**: In some organizations, the development and operations teams are integrated into a single DevOps team responsible for the entire CI/CD process.
+### 2. Build
 
-### Benefits of Automation:
+- **Details:** Upon receiving new code on GitHub, automated tools compile it, create executable files, and check for syntax errors.
+- **Tools:** GitHub Actions.
+- **Responsibility:** Primarily the Development Team, but collaboration with Operations is crucial to understand deployment environments.
 
-1. **Rapid Iteration**: Automation allows teams to make code changes and deployments faster.
-2. **Quality Assurance**: Automated testing quickly discovers issues after each code change.
-3. **Efficient Collaboration**: Automation allows development and operations teams to collaborate more efficiently.
+### 3. Test
+
+- **Details:** This phase involves running various automated tests on GitHub to ensure code quality and identify bugs early.
+- **Tools:** GitHub Actions.
+- **Responsibility:** Development Team.
+
+### 4. Deploy
+
+- **Details:** The code is automatically deployed to Heroku, ensuring seamless delivery to both front-end and back-end environments.
+- **Tools:** Heroku.
+- **Responsibility:** Primarily the Operations Team.
+
+### 5. Validation
+
+- **Details:** After deployment on Heroku, various checks and tests are conducted to ensure the deployed code meets the quality and performance standards.
+- **Tools:** Heroku Monitoring Tools.
+- **Responsibility:** Both Development and Operations Teams.
+
+### 6. Monitoring
+
+- **Details:** Continuous monitoring of the deployed code on Heroku is essential for identifying and addressing issues in real-time.
+- **Tools:** Heroku Monitoring Tools.
+- **Responsibility:** Primarily the Operations Team.
+
+### 7. Feedback
+
+- **Details:** Any issues found during monitoring on Heroku are reported back to the development team through GitHub for resolution in the next iteration.
+- **Responsibility:** Both Development and Operations Teams.
+
+## Connecting Development and Operations Teams:
+
+- **Development Team**: Responsible for developing, committing, and testing code primarily using GitHub and ensuring that the code is ready for deployment.
+- **Operations Team**: Responsible for deploying, validating, and monitoring the application on Heroku and ensuring its performance and stability.
+
+### Additional Considerations:
+
+- **Database Connection:** The back-end deployed on Heroku is connected to MongoDB, and proper connection and data retrieval are crucial for the application's functionality.
+- **Continuous Collaboration:** Regular communication and collaboration between development and operations teams are crucial, especially when using different platforms like GitHub and Heroku for various phases of CI/CD.
 
 ------------------------
 
