@@ -1,9 +1,11 @@
-﻿Meeting ID,Topic,Start Time,Finish Time,User Email,Duration (Minutes),Participants
-9381890782,Langze(Anson) Lu's Personal Room,2023/8/5 19:27,2023/8/5 20:08,langzel@student.unimelb.edu.au,41,6
-,,,,,,
-User,User Email,Duration (Minutes),Guess,,,
-Langze(Anson) Lu,langzel@student.unimelb.edu.au,41,FALSE,,,
-Yilin Chen,yilinc6@student.unimelb.edu.au,38,TRUE,,,
-shanqing huang,,38,TRUE,,,
-Jing Yun Tan (Daniel),,37,TRUE,,,
-Wenda Zhang,,32,TRUE,,,
+﻿Meeting ID,Topic,Start Time,End Time,User Email,Duration (Minutes),Participants,
+9381890782,Langze(Anson) Lu's Personal Meeting Room,2023/09/03 11:27:20 AM,2023/09/03 12:40:39 PM,langzel@student.unimelb.edu.au,74,4,
+
+Name (Original Name),User Email,Join Time,Leave Time,Duration (Minutes),Guest,In Waiting Room
+Langze(Anson) Lu,langzel@student.unimelb.edu.au,2023/09/03 11:27:20 AM,2023/09/03 12:40:39 PM,74,No,No
+Jing Yun Tan (Daniel),,2023/09/03 11:28:18 AM,2023/09/03 11:28:35 AM,1,Yes,Yes
+Jing Yun Tan (Daniel),,2023/09/03 11:28:36 AM,2023/09/03 12:40:39 PM,73,Yes,No
+王荣,,2023/09/03 11:28:59 AM,2023/09/03 11:29:05 AM,1,Yes,Yes
+王荣,,2023/09/03 11:29:05 AM,2023/09/03 12:09:59 PM,41,Yes,No
+Yutian Fan,,2023/09/03 11:31:10 AM,2023/09/03 11:31:20 AM,1,Yes,Yes
+Yutian Fan,,2023/09/03 11:31:20 AM,2023/09/03 12:10:06 PM,39,Yes,No
