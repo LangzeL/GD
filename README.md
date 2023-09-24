@@ -29,7 +29,7 @@ Folder would be contain the following elements:
   - [Website Structure Ver 1.0 (Design on Week 2)](#Website-structure-ver-10-design-on-week-2)
   - [Website Structure - Content Ver 2.0 (Design on Week 4)](#Website-structure---content-ver-20-design-on-week-4)
   - [Website Structure - Content Ver 3.0 (Design on Week 5)](#Website-structure---content-ver-30-design-on-week-5)
-- [User Story](#User-story)
+- [Requirement Specification](#Requirement-Specification)
 - [Sprint Plan for Longplace Beach Website Development](#sprint-plan-for-longplace-beach-website-development)
   - [Sprint 1 (Week 1 - Week 2)](#Sprint-1-week-1---week-2)
   - [Sprint 2 (Week 3 - Week 4)](#Sprint-2-week-3---week-4)
@@ -99,39 +99,28 @@ Folder would be contain the following elements:
 
 ## Team structure
 
-| **Role**           | **Student Name** |
-| ------------------ | ---------------- |
-| **Product Owner**  | Langze Lu        |
-| **Scrum Master**   | Langze Lu        |
-| **QA Engineer**    | Wenda Zhang      |
-| **Architect**      | Shanqing Huang   |
-| **UI/UX designer** | Jing Yun Tan     |
-| **Dev engineer**   | Yilin Chen       |
+### Development Team
+| Role                   | Primary Assignee | Secondary Assignee | Responsibilities                                           |
+| ---------------------- | ---------------- | ------------------ | ---------------------------------------------------------- |
+| Product Owner          | Langze Lu        |                    | Oversee the development process, liaison with stakeholders |
+| Tech Lead              | Wenda Zhang      | Langze Lu          | Lead technical discussions and decisions                   |
+| Front-end Dev Engineer | Langze Lu        | Wenda Zhang        | Manage specific features or sections of the website        |
+| Back-end Dev Engineer  | Jing Yun Tan     | Yilin Chen         | Manage server-side logic and database interactions         |
+| QA Engineer            | Yilin Chen       | Wenda Zhang        | Ensure the quality of the product through testing          |
+| UI/UX Designer         | Jing Yun Tan     |                    | Design the user interface and user experience              |
+| Architect              | Shanqing Huang   | Langze Lu          | Design the software architecture                           |
+| Code Maintenance       | Shanqing Huang   | Yilin Chen         | Maintain code quality and manage technical debt            |
+| Debug + Test           | Yilin Chen       | Wenda Zhang        | Identify and fix bugs, perform testing                     |
 
-| **Development Team**                                         |                 |
-| ------------------------------------------------------------ | --------------- |
-| **Tech Lead**                                                | **Wenda Zhang** |
-| **Front end dev engineer**                                   | Langze Lu       |
-| - reason for this many front end engineer is because **content part** is a huge frontend related area with limited use of DB and backend, therefore everyone in our team were planned to contribute in frontend design | Wenda Zhang     |
-|                                                              | Shanqing Huang  |
-|                                                              | Jing Yun Tan    |
-|                                                              | Yilin Chen      |
-| **Backend dev engineer**                                     | Langze Lu       |
-|                                                              | Wenda Zhang     |
-|                                                              | Jing Yun Tan    |
-| **Code maintenance**                                         | Shanqing Huang  |
-| **Debug+test**                                               | Yilin Chen      |
-
-| **Operation Team**              |                  |
-| -------------------------- | ---------------- |
-| **Role**                   | **Student Name** |
-| **Operations Manager**     | Langze Lu        |
-| **System Administrator**   | Wenda Zhang      |
-| **DevOps Engineer**        | Shanqing Huang   |
-| **Release Manager**        | Jing Yun Tan     |
-| **Database Administrator** | Yilin Chen       |
-| **Security Analyst**       | Shanqing Huang   |
-| **Monitoring Engineer**    | Wenda Zhang      |
+### Operation Team
+| Role                                 | Assignee       | Responsibilities                                             |
+| ------------------------------------ | -------------- | ------------------------------------------------------------ |
+| Operations Manager                   | Langze Lu      | Oversee operational aspects and coordinate tasks             |
+| System Administrator/DevOps Engineer | Wenda Zhang    | Manage system configuration and streamline deployment processes |
+| Release Manager                      | Jing Yun Tan   | Manage software releases                                     |
+| Database Administrator               | Yilin Chen     | Manage database configuration and operations                 |
+| Security Analyst                     | Shanqing Huang | Ensure the security of the software                          |
+| Monitoring Engineer                  | Wenda Zhang    | Monitor system performance and address issues                |
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -337,9 +326,9 @@ After meeting with the client, we made a few adjustments to our content page.
 
 ### Roles
 - Admin
-- Visitor
+- Member
 
-## User story  (Priority breaks into HIGH, MID, LOW)
+## User story in larger scope (Priority breaks into HIGH, MID, LOW)
 
 ### Member
 
