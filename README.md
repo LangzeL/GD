@@ -408,9 +408,16 @@ For each user story, you should also define acceptance criteria to know when the
 | Resource Limitations                           | Efficient management of available resources and prioritization of tasks based on their importance. |
 
 ### Requirement Change Log
-| Date | Change | Reason | Updated By |
-| ---- | ------ | ------ | ---------- |
-|      |        |        |            |
+
+| Date        | Section                       | Change Description                                           | Reasoning                                                    | Updated By   |
+| ----------- | ----------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------ |
+| 25 Aug 2023 | Top Menu and Footer Layout    | Redesign of the top menu and footer to enhance layout and presentation. | To ensure user accessibility and enhance user-friendliness of the website. | Jing Yun Tan |
+| 25 Aug 2023 | Font Colour                   | Adjustment of initial font colour to better align with the client's desired palette. | The initial colour palette did not fully meet our preferences. | Jing Yun Tan |
+| 26 Aug 2023 | Contact Information and Forms | Relocation of contact information and forms from the footer to a dedicated new page. | Elimination of redundancy caused by having a contact session in the navigation bar redirect to the footer. | Jing Yun Tan |
+| 6 Sep 2023  | Responsive Web Design         | Implementation of design alterations to ensure website responsiveness on various devices. | To optimize website presentation and functionality across different devices. | Jing Yun Tan |
+| 11 Sep 2023 | Webpage Edit Function         | Integration of an enhanced editor for improved user experience and streamlined webpage editing. | To simplify and improve the user experience in webpage editing. | Jing Yun Tan |
+| 22 Sep 2023 | Colour Design                 | Refinement of colour schemes utilizing client-provided images. | The client was satisfied with the polished website and provided images to test more colour schemas. | Jing Yun Tan |
+| 22 Sep 2023 | Contact and Enquiry Form      | Transformation of the subscription and feedback form into a contact and enquiry form. | To eliminate redundancy and to align better with the client's requirements. | Jing Yun Tan |
 
 ----------
 
