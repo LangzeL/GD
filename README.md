@@ -1,6 +1,21 @@
 # COMP30022 IT Project - Team006 LongPlaceBeach Website Development Documentation
 --------------------------------------------------------------------------------------------------------------------------------------------------------------
 
+**Short guide for this Git repo**
+
+Folder would be contain the following elements:
+
+- **Client's info** // including the initial requirement set by client and following with update after every meeting we had with client
+- **Communication with Client** // including a pdf file of every contact we made with client record in script format
+- **Diagram **// Contain every diagram we design and used in our project, including motivation model, use case diagram etc..
+- **Frontend design** // this folder contains everystage of our frontend design, including the process of developing prototype
+- **WeChat Conversation** // this folder contains translated communication of **Wechat** the communication tool our team is using
+- **Weekly Meeting Notes** // this folder contains every meeting notes of **TEAM006** from **W2-W9** so far
+- **Zoom meeting detail** // this folder contains every zoom meeting detail, participants, duration of the meeting, etc..
+- **README** would be the main group document 
+
+----------------
+
 ## Table of Contents
 
 - [Website Developing Work Progress](#Website-Developing-Work-Progress)
@@ -31,6 +46,7 @@
   - [Week 7](#Week-7)
   - [Week 8](#Week-8)
   - [Week 9](#Week-9)
+
 --------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## Website Developing Work Progress
@@ -222,50 +238,6 @@
    - Direct phone and email links.
    - Links to social media pages.
 
------------
-
-## User story
-
-### Member
-
-- **(HIGH)** As a member, I want to see upcoming events on the homepage so that I can quickly know about upcoming activities.
-- **(HIGH)** As a member, I want to view the upcoming events on a timetable so that I can schedule my time effectively.
-- **(HIGH)** As a member, I want to click on an event to view more detailed information about it so that I can understand what the event is about and decide whether to participate.
-- **(HIGH)** As a member, I want to experience aesthetic and responsive design on both mobile and monitor screens so that I can navigate the website comfortably on any device.
-- **(MID)** As a member, I want to sign up for events and receive notifications from these events so that I can be reminded of my participation and won’t miss them.
-- **(LOW)** As a member, I want to be able to filter the calendar through different viewing options (e.g. Term, Month, Week) so that I can view events in my preferred way.
-- **(LOW)** As a member, I want events to have different colors for easy viewing/distinction, potentially color-coded to the desired age range, so that I can quickly identify events suited to my age group.
-
-### Admins
-
-- **(HIGH)** As an admin, I want to do everything a member can do so that I can experience the website from a user’s perspective.
-- **(HIGH)** As an admin, I want to add events to the timetable so that members can view and participate in them.
-- **(HIGH)** As an admin, I want to manage/edit existing events so that I can ensure the information is always accurate and up to date.
-- **(HIGH)** As an admin, I want to delete existing events so that canceled or past events won’t clutter the timetable.
-- **(HIGH)** As an admin, I want to click on an event to view more detailed information about it so that I can review and ensure the correctness of event details.
-
-### Additional Story
-
-- **(MID)** As an admin, I want to receive notifications about user sign-ups and interactions so that I can monitor user engagement and respond to any issues or inquiries promptly.
-
-### Acceptance Criteria
-
-For each user story, you should also define acceptance criteria to know when the story is completed. For example:
-
-- **(HIGH)**
-
-   For the story "As a member, I want to see upcoming events on the homepage", the acceptance criterion could be:
-
-  - Given that there are upcoming events, when a member visits the homepage, then the member should see a list or a calendar view of the upcoming events.
-
-### Definition of Done
-
-- All acceptance criteria are met.
-- Code has been reviewed and approved.
-- All tests pass.
-- The feature has been documented.
-- The feature has been deployed and verified in the production environment.
-
 ------------------------
 
 ### **Website Structure - Content Ver 2.0 (Design on Week 4):**
@@ -320,6 +292,109 @@ After meeting with the client, we made a few adjustments to our content page.
    ![Website Structure ver 3.0](Diagram/Website%20Structure%20ver3.0.png)
 
 -------
+
+# Requirement Specification
+
+## Client
+- Longbeach Place Inc.
+
+## Background
+- Longbeach Place Inc. requires a simple and welcoming website to attract more clients from the young to middle demographic, and to showcase their ideas to the rest of the world.
+
+## Project Information
+- The project has been distributed into five teams, each responsible for different sections to complete the website. Our team is responsible for the content pages’ design and edit webpage functionality.
+
+# Requirements
+
+### Initial Requirements
+#### General website requirements:
+| Priority | Requirement                  | Acceptance Criteria                                          | User Story                                                   |
+| -------- | ---------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
+| High     | Functional and user-friendly | The website should operate without errors and users should be able to navigate seamlessly. | As a user, I want to navigate a functional website so that I can access information without disruptions. |
+| High     | Fresh Modern Design          | The website should have a contemporary, appealing design.    | As a user, I want to see a modern design so that my user experience is enjoyable and up to date. |
+| High     | Accessibility                | The website should be accessible to users with disabilities. | As a user with disabilities, I want to access the website easily so that I can get the information I need. |
+
+#### Our Team’s Responsibilities
+| Priority | Requirement                   | Acceptance Criteria                                          | User Story                                                   |
+| -------- | ----------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
+| High     | General intro for the company | The introduction should be concise and informative.          | As a visitor, I want to read a general introduction about the company so that I can understand its background and mission. |
+| High     | Links to Facebook and Email   | The links should be working and lead to the correct addresses. | As a visitor, I want to access the company's Facebook and Email through links so that I can connect and communicate with them. |
+| High     | Content Pages (layout design) | The layout should be clean and the design should be consistent across all content pages. | As a visitor, I want to see well-designed content pages so that I can easily read and understand the information presented. |
+
+### Updated Requirements (After Week 5 Site Meeting with Client)
+#### General Design
+| Priority | Requirement                            | Acceptance Criteria                                          | User Story                                                   |
+| -------- | -------------------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
+| Medium   | Consistent Layout                      | All pages should follow a uniform layout and design.         | As a user, I want to see a consistent layout on every page so that I can easily navigate the website. |
+| Medium   | Prefer Pink and Darker Colors for Text | The text on the website should mainly be in pink and darker colors. | As a user, I want to read text in pleasing colors so that my reading experience is comfortable. |
+
+### Updated Requirements (After Week 9 Zoom Meeting with Client)
+#### General
+| Priority | Requirement                                              | Acceptance Criteria                                          | User Story                                                   |
+| -------- | -------------------------------------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
+| Low      | Testing More Font Colors for Nav Bar                     | The font color for the nav bar should be tested with different colors to find the most suitable one. | As an admin, I want to try different font colors for the nav bar so that we can finalize the most visually appealing and readable one. |
+| Medium   | Client Needs Tutorial PDF for Editing the Website Design | A comprehensive tutorial PDF should be provided to the client explaining how to edit the website design. | As a client, I want a tutorial PDF so that I can understand how to make changes to the website design by myself. |
+
+### Roles
+- Admin
+- Visitor
+
+## User story  (Priority breaks into HIGH, MID, LOW)
+
+### Member
+
+- **(HIGH)** As a member, I want to see upcoming events on the homepage so that I can quickly know about upcoming activities.
+- **(HIGH)** As a member, I want to view the upcoming events on a timetable so that I can schedule my time effectively.
+- **(HIGH)** As a member, I want to click on an event to view more detailed information about it so that I can understand what the event is about and decide whether to participate.
+- **(HIGH)** As a member, I want to experience aesthetic and responsive design on both mobile and monitor screens so that I can navigate the website comfortably on any device.
+- **(MID)** As a member, I want to sign up for events and receive notifications from these events so that I can be reminded of my participation and won’t miss them.
+- **(LOW)** As a member, I want to be able to filter the calendar through different viewing options (e.g. Term, Month, Week) so that I can view events in my preferred way.
+- **(LOW)** As a member, I want events to have different colors for easy viewing/distinction, potentially color-coded to the desired age range, so that I can quickly identify events suited to my age group.
+
+### Admins
+
+- **(HIGH)** As an admin, I want to do everything a member can do so that I can experience the website from a user’s perspective.
+- **(HIGH)** As an admin, I want to add events to the timetable so that members can view and participate in them.
+- **(HIGH)** As an admin, I want to manage/edit existing events so that I can ensure the information is always accurate and up to date.
+- **(HIGH)** As an admin, I want to delete existing events so that canceled or past events won’t clutter the timetable.
+- **(HIGH)** As an admin, I want to click on an event to view more detailed information about it so that I can review and ensure the correctness of event details.
+
+### Additional Story
+
+- **(MID)** As an admin, I want to receive notifications about user sign-ups and interactions so that I can monitor user engagement and respond to any issues or inquiries promptly.
+
+### Acceptance Criteria
+
+For each user story, you should also define acceptance criteria to know when the story is completed. For example:
+
+- **(HIGH)**
+
+  For the story "As a member, I want to see upcoming events on the homepage", the acceptance criterion could be:
+
+  - Given that there are upcoming events, when a member visits the homepage, then the member should see a list or a calendar view of the upcoming events.
+
+### Definition of Done
+
+- All acceptance criteria are met.
+- Code has been reviewed and approved.
+- All tests pass.
+- The feature has been documented.
+- The feature has been deployed and verified in the production environment.
+
+### Risks and Obstacles
+| Risk/Obstacle                                  | Possible Solution                                            |
+| ---------------------------------------------- | ------------------------------------------------------------ |
+| Technical Challenges in implementing a feature | Regular team discussions and seeking external advice if needed. |
+| Resource Limitations                           | Efficient management of available resources and prioritization of tasks based on their importance. |
+
+### Requirement Change Log
+| Date | Change | Reason | Updated By |
+| ---- | ------ | ------ | ---------- |
+|      |        |        |            |
+
+----------
+
+
 
 ## Sprint Plan for Longplace Beach Website Development
 
@@ -404,73 +479,76 @@ After meeting with the client, we made a few adjustments to our content page.
   
   ----------
   
-  - ### Sprint 4 (Week 7 - Week 8)
+  ### Sprint 4 (Week 7 - Week 8)
   
-    #### Objective:
+  #### Objective:
   
-    - Development and Refinement of Edit Function and Mobile Responsiveness
+  - Refinement and Development of Edit Function
+  - Ensuring Mobile Responsiveness
+  - Preliminary Integration of GrapesJS editor function
   
-    #### Tasks:
+  #### Tasks:
   
-    1. **Week 7:**
-       - Develop a basic toolbar and scroll section for the edit function.
-       - Develop a prototype where each page's preview is displayed on the screen.
-       - Create a preliminary add text function where edited content is stored locally.
-       - Begin discussions and planning on how to store edited content on the server/database.
-       - Start working on the logic for the ‘Add Image’ function.
-       - Begin developing mobile responsiveness, focusing primarily on adapting the top title and navigation bar for mobile view.
-    2. **Week 8:**
-       - Establish the basic structure for the GrapesJS editor function and fix any identified bugs in the preview page.
-       - Complete the admin login, but leave the work on password verification to continue in the next sprint.
-       - Finalize the mobile adaptation for all pages and discuss any special requirements for images with the client.
-       - Discuss how the edit function can be beautified and actually connected to the webpages for a preview.
-       - Start working on developing different buttons for different functions based on the edit function.
+  1. **Edit Function Development and Refinement:**
+     - Develop and refine the toolbar and scroll section.
+     - Create a functional prototype displaying each page's preview on the screen.
+     - Develop and implement an add text function, ensuring content is stored locally.
+     - Initiate discussions and preliminary plans on server/database integration for storing edited content.
+     - Start developing the logic for the ‘Add Image’ function and integrate it with the edit function.
+  2. **Mobile Responsiveness:**
+     - Ensure all pages are optimized for mobile viewing, focusing primarily on the top title and navigation bar.
+     - Discuss and finalize any special requirements for images with the client.
+     - Develop a responsive navigation bar suitable for mobile view.
+  3. **Integration of GrapesJS Editor:**
+     - Establish a basic structure for the GrapesJS editor function.
+     - Resolve identified bugs in the preview page to ensure seamless user experience.
+     - Complete the admin login feature, leaving password verification for the subsequent Sprint.
   
-    #### Deliverables:
+  #### Deliverables:
   
-    - Functional and user-friendly edit function with a basic toolbar and scroll section.
-    - Prototype displaying each page's preview on the screen.
-    - Mobile-responsive design, especially focusing on top title and navigation bar.
-    - Initial setup of the GrapesJS editor function.
-    - Admin login (password verification pending).
+  - A refined and user-friendly edit function integrated with basic ‘Add Image’ logic.
+  - A mobile-responsive design optimized for all pages.
+  - A functional prototype of the GrapesJS editor with a preliminary version of the admin login feature.
   
-    #### Sprint Highlights:
+  #### Sprint Highlights:
   
-    - **Quick Review**: The team was able to set up basic structures for crucial features such as the edit function and the GrapesJS editor. Mobile responsiveness was also given attention.
-    - **Positive Feedback**: The client was content with the basic structures laid out for the different functionalities, and the emphasis placed on user-friendly design was appreciated.
-    - **Reflect on Roadblocks and Improvements**: The primary challenge was refining the edit function and planning its connection with the database. A need for detailed technical discussions and possible expert consultations were identified.
+  - **Quick Review:** Focus will be on refining and developing crucial features like the edit function, ensuring mobile responsiveness, and integrating the GrapesJS editor function.
+  - **Positive Feedback:** Successful integration and development of the mentioned features would lead to a more user-friendly and functional design, likely earning appreciation from the client.
+  - **Reflect on Roadblocks and Improvements:** The team should anticipate challenges in refining the edit function and its integration with the server/database and plan for in-depth technical discussions and potential expert consultations to overcome them.
   
-    ---------
+  ---------
   
-    ### Sprint 6 (Week 9 - Week 10)
+  ### Sprint 5 (Week 9 - Week 10)
   
-    #### Objective:
+  #### Objective:
   
-    - Finalization and Deployment of Project and Building Database
+  - Project Finalization
+  - Deployment Preparation
+  - Database Construction and Integration
   
-    #### Tasks:
+  #### Tasks:
   
-    1. **Week 9:**
-       - Meet with the client to discuss any additional requirements, clarifications, or changes needed.
-       - Work on any additional requirements or changes proposed by the client.
-       - Prepare the database structure and begin the initial phase of deployment for both the front and back ends.
-    2. **Week 10:**
-       - Complete any pending client requests and make final refinements to the project based on client feedback.
-       - Finalize and implement the deployment plan for both the front and back ends.
-       - Complete building and testing the database, ensuring all data is correctly stored and retrieved.
-       - Conduct final tests to ensure all features are working seamlessly.
+  1. **Project Finalization and Client Consultation:**
+     - Conduct detailed discussions with the client to finalize requirements and incorporate any additional changes or enhancements.
+     - Refine and optimize every feature and functionality based on client feedback.
+  2. **Deployment Preparation:**
+     - Develop a comprehensive deployment plan, covering both front and back ends.
+     - Initiate the deployment process and ensure every component is properly configured and optimized.
+  3. **Database Construction and Integration:**
+     - Finalize the database structure and ensure its seamless integration with the website.
+     - Conduct extensive tests to validate data storage, retrieval, and security mechanisms.
   
-    #### Deliverables:
+  #### Deliverables:
   
-    - A fully-functional project deployed with a secure and efficient database.
-    - All client requirements addressed, and final refinements made based on client feedback.
-    - Complete documentation detailing the deployment process and database structure.
+  - A finalized project, refined and optimized based on client feedback and requirements.
+  - A deployed website, with every component properly configured and optimized.
+  - A fully functional and integrated database, validated through extensive testing.
   
-    #### Sprint Highlights:
+  #### Sprint Highlights:
   
-    - **Quick Review**: The team successfully finalized and deployed the project, addressing all client requirements and feedback.
-    - **Positive Feedback**: The client was extremely satisfied with the final product, praising the team's commitment and the project's functionality, adaptability, and user-friendly design.
-    - **Reflect on Roadblocks and Improvements**: Finalizing the deployment and ensuring seamless functionality of all features were challenging. Regular monitoring and immediate addressing of any issues post-deployment were deemed necessary.
+  - **Quick Review:** The team will work on finalizing every aspect of the project, preparing it for deployment, and ensuring the database is constructed and integrated seamlessly.
+  - **Positive Feedback:** Achieving a seamless deployment and a fully functional and integrated database would reinforce the client's confidence and satisfaction in the project.
+  - **Reflect on Roadblocks and Improvements:** The team should be prepared for any unexpected issues during deployment and database integration and should have contingency plans in place to address them promptly.
 
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------
