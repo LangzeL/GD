@@ -7,7 +7,7 @@ Folder would be contain the following elements:
 
 - **Client's info** // including the initial requirement set by client and following with update after every meeting we had with client
 - **Communication with Client** // including a pdf file of every contact we made with client record in script format
-- **Diagram **// Contain every diagram we design and used in our project, including motivation model, use case diagram etc..
+- **Diagram** // Contain every diagram we design and used in our project, including motivation model, use case diagram etc..
 - **Frontend design** // this folder contains everystage of our frontend design, including the process of developing prototype
 - **WeChat Conversation** // this folder contains translated communication of **Wechat** the communication tool our team is using
 - **Weekly Meeting Notes** // this folder contains every meeting notes of **TEAM006** from **W2-W9** so far
