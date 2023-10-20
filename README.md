@@ -6,12 +6,15 @@
 Folder would be contain the following elements:
 
 - **Client's info** // including the initial requirement set by client and following with update after every meeting we had with client
+- **Coding standard**// including the code standard we followed during this website development
 - **Communication with Client** // including a pdf file of every contact we made with client record in script format
+- **Debug report** // including the debug report we had during the project development
 - **Diagram** // Contain every diagram we design and used in our project, including motivation model, use case diagram etc..
 - **Frontend design** // this folder contains everystage of our frontend design, including the process of developing prototype
 - **WeChat Conversation** // this folder contains translated communication of **Wechat** the communication tool our team is using
 - **Weekly Meeting Notes** // this folder contains every meeting notes of **TEAM006** from **W2-W9** so far
 - **Zoom meeting detail** // this folder contains every zoom meeting detail, participants, duration of the meeting, etc..
+- **Testing** // this folder contains testing for our code in pdf file
 - **README** would be the main group document 
 
 ----------------
@@ -35,7 +38,9 @@ Folder would be contain the following elements:
   - [Sprint 2 (Week 3 - Week 4)](#Sprint-2-week-3---week-4)
   - [Sprint 3 (Week 5- Week 6)](#Sprint-3-week-5--week-6)
   - [Sprint 4 (Week 7- Week 8)](#Sprint-4-week-7--week-8)
-  - [Sprint 5 (Week 9- Week 10)](#Sprint-4-week-9--week-10)
+  - [Sprint 5 (Week 9- Week 10)](#Sprint-5-week-9--week-10)
+  - [Sprint 6 (Week 11)](#Sprint-6-week-11)
+  - [Sprint 7 (Week 12)](#Sprint-7-week-12)
 - [Weekly objectives, tasks and meeting notes](#Weekly-objectives-tasks-and-meeting-notes)
   - [Week 1](#Week-1)
   - [Week 2](#Week-2)
@@ -46,6 +51,9 @@ Folder would be contain the following elements:
   - [Week 7](#Week-7)
   - [Week 8](#Week-8)
   - [Week 9](#Week-9)
+  - [Week 10](#Week-10)
+  - [Week 11](#Week-11)
+  - [Week 12](#Week-12)
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -77,23 +85,26 @@ Folder would be contain the following elements:
         <tr>
             <td><strong>Front-end Development</strong></td>
             <td colspan="3" style="border-right: none;"></td>
-            <td colspan="9" style="border-left: none;"><span style="color:rgb(0, 150, 139)">███████████████</span><span style="color:rgb(255, 192, 203)">███ </span><span><strong>Completed 70%</strong></span></td>
+            <td colspan="9" style="border-left: none;"><span style="color:rgb(0, 150, 139)">███████████████</span><span style="color:rgb(0, 150, 139)">███ </span><span><strong>Completed 100%</strong></span></td>
         </tr>
         <tr>
             <td><strong>Back-end Development</strong></td>
             <td colspan="7" style="border-right: none;"></td>
-            <td colspan="5" style="border-left: none;"><span style="color:rgb(0, 150, 139)">████████████</span><span style="color:rgb(255, 192, 203)">█ </span><span><strong>Completed 90%</strong></span></td>
+            <td colspan="5" style="border-left: none;"><span style="color:rgb(0, 150, 139)">████████████</span><span style="color:rgb(0, 150, 139)">█ </span><span><strong>Completed 100%</strong></span></td>
         </tr>
         <tr>
             <td><strong>Testing & Feedback</strong></td>
-            <td colspan="12"><span style="color:rgb(0, 150, 139)">███████████████████</span><span style="color:rgb(255, 192, 203)">░░░░ </span><span><strong>Completed ##%</strong></span></td>
+            <td colspan="7" style="border-right: none;"></td>
+            <td colspan="12" style="border-left: none;"><span style="color:rgb(0, 150, 139)">███████████████████</span><span style="color:rgb(0, 150, 139)">████ </span><span><strong>Completed 100%</strong></span></td>
         </tr>
         <tr>
             <td><strong>Bug Fixing & Optimization</strong></td>
-            <td colspan="12"><span style="color:rgb(0, 150, 139)">███████████████████████</span><span style="color:rgb(255, 192, 203)">░░░░ </span><span><strong>Completed ##%</strong></span></td>
+            <td colspan="7" style="border-right: none;"></td>
+            <td colspan="12" style="border-left: none;"><span style="color:rgb(0, 150, 139)">███████████████████</span><span style="color:rgb(0, 150, 139)">████ </span><span><strong>Completed 100%</strong></span></td>
         </tr>
     </tbody>
 </table>
+
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -576,6 +587,70 @@ For each user story, you should also define acceptance criteria to know when the
   - **Quick Review:** The team will work on finalizing every aspect of the project, preparing it for deployment, and ensuring the database is constructed and integrated seamlessly.
   - **Positive Feedback:** Achieving a seamless deployment and a fully functional and integrated database would reinforce the client's confidence and satisfaction in the project.
   - **Reflect on Roadblocks and Improvements:** The team should be prepared for any unexpected issues during deployment and database integration and should have contingency plans in place to address them promptly.
+
+### Sprint 6 (Week 11)
+
+#### **Objective:**
+
+- Preparation for the Final Presentation
+- Finalizing the Deployment
+- Wrapping Up the Documentation
+
+#### **Tasks:**
+
+1. **Final Presentation Preparation:**
+   - Compile all the work done throughout the project for a comprehensive overview.
+   - Prepare a well-structured presentation to showcase the project's journey, challenges, and achievements.
+2. **Finalizing Deployment:**
+   - Ensure that all functionalities are working seamlessly in the live environment.
+   - Conduct thorough testing to identify any bugs or issues in the deployed version.
+3. **Finalizing Documentation:**
+   - Ensure that all documentation, including code comments, user guides, and technical documentation, is complete and clear.
+   - Organize all files and documents for easy access and understanding.
+
+#### **Deliverables:**
+
+- A finalized presentation ready to be delivered.
+- A fully functional live version of the project.
+- Complete and organized project documentation.
+
+#### **Sprint Highlights:**
+
+- **Quick Review:** The sprint focuses on finalizing all aspects of the project and preparing for the final presentation.
+- **Reflect on Roadblocks and Improvements:** Focus on identifying any last-minute issues that need resolution and ensure everything is polished and professional.
+
+------
+
+### Sprint 7 (Week 12)
+
+#### **Objective:**
+
+- Conducting the Final Presentation
+- Submission of All Project Components
+- Closing and Reflection
+
+#### **Tasks:**
+
+1. **Final Presentation:**
+   - Conduct the final presentation, showcasing all aspects of the project, from development to completion.
+   - Address any questions or feedback from the audience.
+2. **Project Submission:**
+   - Ensure that all components, including code, documentation, and reports, are submitted as per the guidelines.
+   - Double-check all submissions for completeness and accuracy.
+3. **Project Closing and Reflection:**
+   - Conduct a final team meeting to reflect on the project experience, challenges, and learnings.
+   - Officially close the project, ensuring that all tasks are completed and all deliverables are submitted.
+
+#### **Deliverables:**
+
+- Successful completion and delivery of the final presentation.
+- Submission of all project components.
+- Completion of the project closing process.
+
+#### **Sprint Highlights:**
+
+- **Quick Review:** The sprint aims to successfully close the project with a comprehensive presentation and submission of all work.
+- **Reflect on Roadblocks and Improvements:** Reflect on the overall project experience, identifying key learnings, challenges overcome, and areas for future improvement.
 
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -1129,3 +1204,207 @@ The group is focusing on consolidating the work done so far, gathering final con
    - Any final changes or refinements, especially those concerning content details, header styling, and color schemes, will be implemented as per the client's feedback.
 
 In this meeting, the dialogue with the client will be pivotal in steering the project towards its final form. Understanding the client’s satisfaction level and additional requirements will help in making informed decisions during the final stages of development. The meeting aims to ensure that all functionalities and design elements align perfectly with the client’s vision and expectations, setting the stage for the successful deployment of the project.
+
+---------------
+
+###  Week 10
+
+#### Group Goal and Task:
+
+The group will continue to improve and finalize various aspects of the project based on the client's feedback and requirements. Focus will be on obtaining necessary content, tweaking design elements, ensuring functionality, and preparing for the final presentation and deployment of the project.
+
+#### Meeting Overview:
+
+==Meeting 1 3rd Oct via Zoom Online==
+
+Admin: Langze L
+
+Participants: Wenda Z, Yilin C, Shanqing H, Jing Yun T
+
+**Agenda for Client Meeting:**
+
+1. Content and Images:
+   - Priority will be given to obtaining necessary images and main content for the homepage.
+2. Mobile Layout Satisfaction:
+   - We would like to know if the client is satisfied with the current layout on mobile devices.
+3. Editor Function Tutorial:
+   - A brief tutorial or guidance on how to use the editor function will be provided.
+4. MongoDB Setup:
+   - Discussions around setting up MongoDB for the project.
+5. Email Subscription:
+   - Clarification on the email subscription feature and its functionalities.
+6. Email Limitations and Account Types:
+   - Discussions around email limitations and various account types, possibly mentioning domain usage.
+7. Domain Usage:
+   - Confirmation on whether the client’s domain will be used.
+8. Navbar Font Color:
+   - Feedback is needed on the navbar’s font color.
+9. News Page Linking:
+   - Details on what specific sections the news page should link to.
+10. Mobile Drop-Down Menu:
+    - Discussions on the design and functionality of the drop-down menu on mobile devices.
+11. PDF Section Connection:
+    - Confirmation on how the webpage should be connected to various PDF sections.
+
+**Client Feedback Summary:** (Summary of the client's feedback and reactions during the meeting, to be filled out post-meeting.)
+
+**Next Steps:**
+
+1. Final Adjustments and Improvements:
+   - Based on the client’s feedback, necessary final adjustments and improvements will be made to the content, design, and functionalities.
+2. Preparation for Deployment:
+   - The team will focus on preparing the project for final presentation and deployment, ensuring that all aspects align with the client’s requirements and expectations.
+
+This meeting will be crucial in gathering the last pieces of information and feedback necessary to polish and finalize the project. Through effective communication and clarification, the team aims to ensure that the project’s presentation and deployment will be carried out smoothly, meeting the client's expectations and standards.
+
+
+
+#### Meeting Overview:
+
+==Meeting 2 4th Oct In LBP community centre==
+
+Admin: Langze L
+
+Participants: Wenda Z, Yilin C, Shanqing H, Jing Yun T
+
+Guest: Client Cat Beed
+
+The client meeting focused on finalizing the content and layout based on the client’s requirements and preferences. Specific discussions revolved around image placements, page linkages, and content organization within various sections of the website.
+
+#### Client Feedback Summary:
+
+1. **Images:**
+   - The client emphasized the need to test images to ensure they meet specific requirements and are displayed as intended on the website.
+2. **Get Involved Page:**
+   - Clarifications were made concerning the content of the "Get Involved" page. The client specified that there is no need to include employment information, focusing instead on volunteer opportunities and donation options.
+   - The client also requested linking the Longbeach news from the homepage directly to the "Get Involved" page.
+3. **Showcase Page:**
+   - It was requested to include additional content related to the garden within the "Showcase" page to highlight this aspect more prominently.
+
+#### Next Steps:
+
+1. **Image Optimization:**
+   - Efforts will be directed towards testing and optimizing images to ensure that they align well with the client’s requirements and are displayed correctly within various sections of the website.
+2. **Page Content and Linkages:**
+   - Necessary adjustments will be made to the "Get Involved" page to reflect the client’s preferences, focusing on volunteer and donation information.
+   - Appropriate links will be established, such as connecting the Longbeach news on the homepage to the "Get Involved" page.
+3. **Showcase Page Enhancement:**
+   - The "Showcase" page will be enhanced by incorporating additional content related to the garden, as per the client’s request.
+
+The client's feedback during this meeting provided valuable insights into finalizing the website's content and layout. The team will focus on implementing the suggested changes and enhancements to ensure that the website is comprehensive, user-friendly, and aligns well with the client's vision and expectations.
+
+---------------------
+
+###  Week 11: Preparation for Week 12 Presentation
+
+#### Meeting Overview:
+
+==Meeting 1 12th Oct Via Zoom==
+
+Admin: Langze L
+
+Participants: Wenda Z, Yilin C, Shanqing H, Jing Yun T
+
+#### **Opening:**
+
+- Welcome everyone and introduce the team and the purpose of the presentation.
+
+#### **Team Introduction:**
+
+- Briefly introduce team members and their roles.
+
+#### **Project Brief: LBP (By Daniel)**
+
+- A concise overview of the LBP project, objectives, and the expected outcomes.
+
+#### **Requirements (By Daniel)**
+
+- Discuss the client’s requirements, expectations, and the problems that need solving.
+
+#### **Collaboration Tools (By Wenda)**
+
+- Share the tools used for collaboration, project management, and communication within the team.
+
+#### **Design Flow**
+
+- Explain the overall design flow, illustrating how the project was divided into different stages.
+
+### **Stage 1: Frontend Design**
+
+- Yilin and Jack:
+  - Discuss the differences and improvements made compared to the original website.
+  - Explain the choice of colors, the decision to use the React framework, and how it benefits frontend development.
+
+### **Stage 2: Team Division and Rationale**
+
+- Daniel:
+  - Explain why the team was divided into two parts and the benefits of this approach.
+- Anson:
+  - Discuss the development of the editing functionality, including the challenges and the solutions implemented.
+
+### **Stage 3: Deployment and Integration**
+
+- Wenda:
+  - Discuss the deployment process, challenges, and the integration with other groups.
+  - Highlight the comparison between the new website and the original, emphasizing the new website’s advantages.
+
+#### **Lessons Learned**
+
+- Share the lessons learned, challenges faced, and how the team overcame them.
+
+#### **Summary and Closing**
+
+- Summarize the key points discussed during the presentation.
+- Thank everyone for their attention and open the floor for any questions or discussions.
+
+#### **Preparation Focus for Week 11**
+
+- The main focus will be on preparing for the Week 12 presentation.
+- Ensure that every team member is clear about their part and comfortable with the content they will present.
+- Run through the presentation multiple times to ensure fluency, coherence, and that all important aspects are covered adequately.
+
+By organizing the presentation in this manner, the team aims to deliver a comprehensive, engaging, and informative presentation that effectively communicates the project’s journey, achievements, and lessons learned.
+
+--------------------
+
+### Week 12: Project Wrap-Up and Final Deliverables
+
+#### Meeting Overview:
+
+==Meeting 1 18th Oct Via Zoom==
+
+Admin: Langze L
+
+Participants: Wenda Z, Yilin C, Shanqing H, Jing Yun T
+
+#### **Objective:**
+
+The primary goal for Week 12 is to conclude all remaining tasks, finalize the project, and prepare the essential deliverables such as the ethics and security reports. This week is crucial for ensuring that every aspect of the project is polished, completed, and well-documented.
+
+#### **Tasks to Complete:**
+
+1. **Finalize Remaining Work:**
+   - Complete any pending tasks or functionalities.
+   - Ensure that all features are working as expected and that the project meets the client’s requirements.
+2. **Testing and Debugging:**
+   - Conduct thorough testing of the application to identify any bugs or issues.
+   - Debug and resolve any problems to ensure that the application runs smoothly and reliably.
+3. **Documentation:**
+   - Prepare comprehensive documentation that includes all necessary information such as the project overview, functionalities, and user guides.
+   - Ensure that the documentation is clear, detailed, and helpful for future reference or development.
+4. **Ethics and Security Report:**
+   - Write a detailed report addressing ethical considerations related to the project.
+   - Discuss the security measures implemented to protect user data and ensure the safe and reliable operation of the application.
+5. **Final Review and Submission:**
+   - Conduct a final review to ensure that all aspects of the project are complete and that all deliverables are prepared.
+   - Submit the project, documentation, and all related reports and files as per the submission guidelines.
+6. **Client Handover:**
+   - Conduct a final meeting with the client to hand over the project, explain the functionalities, and provide the necessary documentation and support.
+   - Collect feedback from the client and discuss any future plans or considerations related to the project.
+7. **Team Reflection:**
+   - Conduct a team meeting to reflect on the project journey, discuss the experiences, and share feedback and learning outcomes.
+   - Celebrate the team’s achievements and hard work.
+
+#### **Outcome:**
+
+By the end of Week 12, the project should be fully completed, well-documented, and ready for submission. All deliverables, including the ethics and security reports, should be prepared meticulously to meet the highest standards of quality and professionalism. The team should be ready to hand over a polished and reliable application to the client and submit all work for evaluation.
