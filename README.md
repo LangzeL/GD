@@ -14,7 +14,6 @@ Folder would be contain the following elements:
 - **WeChat Conversation** // this folder contains translated communication of **Wechat** the communication tool our team is using
 - **Weekly Meeting Notes** // this folder contains every meeting notes of **TEAM006** from **W2-W9** so far
 - **Zoom meeting detail** // this folder contains every zoom meeting detail, participants, duration of the meeting, etc..
-- **Testing** // this folder contains testing for our code in pdf file
 - **README** would be the main group document 
 
 ----------------
@@ -97,16 +96,17 @@ Folder would be contain the following elements:
         </tr>
         <tr>
             <td><strong>Testing & Feedback</strong></td>
-            <td colspan="7" style="border-right: none;"></td>
-            <td colspan="12" style="border-left: none;"><span style="color:rgb(0, 150, 139)">███████████████████</span><span style="color:rgb(0, 150, 139)">████ </span><span><strong>Completed 100%</strong></span></td>
+            <td colspan="10" style="border-right: none;"></td>
+            <td colspan="12" style="border-left: none;"><span style="color:rgb(0, 150, 139)">███████████</span><span style="color:rgb(0, 150, 139)">████ </span><span><strong>Completed 100%</strong></span></td>
         </tr>
         <tr>
             <td><strong>Bug Fixing & Optimization</strong></td>
-            <td colspan="7" style="border-right: none;"></td>
-            <td colspan="12" style="border-left: none;"><span style="color:rgb(0, 150, 139)">███████████████████</span><span style="color:rgb(0, 150, 139)">████ </span><span><strong>Completed 100%</strong></span></td>
+            <td colspan="10" style="border-right: none;"></td>
+            <td colspan="12" style="border-left: none;"><span style="color:rgb(0, 150, 139)">███████████</span><span style="color:rgb(0, 150, 139)">████ </span><span><strong>Completed 100%</strong></span></td>
         </tr>
     </tbody>
 </table>
+
 
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -640,6 +640,27 @@ For each user story, you should also define acceptance criteria to know when the
   - **Positive Feedback:** Successful integration and development of the mentioned features would lead to a more user-friendly and functional design, likely earning appreciation from the client.
   - **Reflect on Roadblocks and Improvements:** The team should anticipate challenges in refining the edit function and its integration with the server/database and plan for in-depth technical discussions and potential expert consultations to overcome them.
   
+  ### **Week 7 Backlog:**
+  
+  1. Edit Function Development and Refinement:
+     - Complete toolbar and scroll section development.
+     - Testing and debugging of the edit functionality.
+  2. Mobile Responsiveness:
+     - Ensure each page is optimized for various screen sizes.
+     - Conduct testing on different devices to ensure consistency and functionality.
+  3. Integration of GrapesJS Editor:
+     - Complete the basic setup of GrapesJS.
+     - Start debugging and improving the user experience.
+  
+  ### **Week 8 Backlog:**
+  
+  1. Finalization of Edit Function:
+     - Complete the ‘Add Image’ logic and integrate it into the website.
+     - Conduct thorough testing to ensure it works seamlessly.
+  2. Final Touches to Mobile Responsiveness:
+     - Make any necessary adjustments based on testing feedback.
+     - Ensure navigation is user-friendly on all devices.
+  
   ---------
   
   ### Sprint 5 (Week 9 - Week 10)
@@ -674,6 +695,26 @@ For each user story, you should also define acceptance criteria to know when the
   - **Positive Feedback:** Achieving a seamless deployment and a fully functional and integrated database would reinforce the client's confidence and satisfaction in the project.
   - **Reflect on Roadblocks and Improvements:** The team should be prepared for any unexpected issues during deployment and database integration and should have contingency plans in place to address them promptly.
 
+### **Week 9 Backlog:**
+
+1. Client Consultation:
+   - Hold a meeting with the client to finalize any pending requirements.
+   - Discuss and confirm all necessary features and designs.
+2. Preparation for Deployment:
+   - Begin setting up the necessary environments for deploying the website.
+   - Ensure that all elements of the website are ready for live presentation.
+
+### **Week 10 Backlog:**
+
+1. Deployment:
+   - Finalize the live website, ensuring all functionalities are working correctly.
+   - Make any last-minute adjustments necessary for a polished, operational website.
+2. Database Construction and Integration:
+   - Complete all database integrations.
+   - Confirm that data flows correctly between the website and the database.
+
+-------------
+
 ### Sprint 6 (Week 11)
 
 #### **Objective:**
@@ -704,6 +745,15 @@ For each user story, you should also define acceptance criteria to know when the
 
 - **Quick Review:** The sprint focuses on finalizing all aspects of the project and preparing for the final presentation.
 - **Reflect on Roadblocks and Improvements:** Focus on identifying any last-minute issues that need resolution and ensure everything is polished and professional.
+
+### **Week 11 Backlog:**
+
+1. Presentation Preparation:
+   - Complete the compilation of work for the presentation.
+   - Ensure that all team members are prepared to discuss their parts confidently.
+2. Final Testing:
+   - Conduct a final round of testing to ensure everything is working as expected.
+   - Make any necessary adjustments based on test results.
 
 ------
 
@@ -737,6 +787,14 @@ For each user story, you should also define acceptance criteria to know when the
 
 - **Quick Review:** The sprint aims to successfully close the project with a comprehensive presentation and submission of all work.
 - **Reflect on Roadblocks and Improvements:** Reflect on the overall project experience, identifying key learnings, challenges overcome, and areas for future improvement.
+
+### **Week 12 Backlog:**
+
+1. Final Presentation:
+   - Conduct the final presentation, ensuring all aspects of the project are covered comprehensively.
+2. Project Submission:
+   - Submit all necessary components, ensuring nothing is missing.
+   - Double-check all submissions for accuracy and completeness.
 
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------
