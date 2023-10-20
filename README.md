@@ -29,6 +29,7 @@ Folder would be contain the following elements:
    - [Test Plan](#test-plan)
       - [UI/UX Test](#1-uiux-test)
       - [Performance Test](#2-Performance-Test)
+      - [Penetration Test](#3-Penetration-Test)
 - [Website Development Version Notes](#Website-Development-Version-Notes)
   - [Features](#Features)
   - [Recommended Technologies](#Recommended-Technologies)
@@ -230,7 +231,7 @@ Folder would be contain the following elements:
 
 Based on the user stories and requirements defined above, three types of tests would be continuously conducted on the Website throughout the whole development process.
 
-### 1. UI/UX Test:
+### 1. UI/UX Test
 
 Given the context of the LongPlaceBeach Inc., ensuring the consistent and accurate presentation of information is paramount. The website would likely undergo several changes over time - updates to events details, activities information, and possibly design tweaks. Every change, even if minor, has the potential to unintentionally disrupt the UI/UX.
 
@@ -277,7 +278,7 @@ Therefore, **BackstopJS** will be used as the tool for visual regression testing
    ![UI/UX Test correct image 3](Testing%20Plan/UIUX%20Test/3.png)
 
 
-### 2. Performance Test:
+### 2. Performance Test
 
 Within the backdrop of the LongPlaceBeach Inc. website, prompt and efficient access to vital information, such as event dates, volunteering sign-ups, and donation methods, is crucial. As LongPlaceBeach Inc. grows and the site garners more traffic,  slowdown or inefficiency could hinder the user experience, potentially leading to lost valuable opportunities.
 
@@ -289,7 +290,7 @@ Performance testing ensures the website remains agile and efficient, even during
 
 #### Performance Testing process
 
-1. The performance testing integrates within a **CI/CD framework**. This ensures that every content update, design tweak, or feature addition is reviewed and passes automated tests before merging. 
+1. The performance testing integrates within a **CI/CD framework**. After pushing the modifications to the git repository, every content update, design tweak, or feature addition is reviewed and passes automated tests. 
 
 ```yaml
   performance-testing:
@@ -313,9 +314,14 @@ Performance testing ensures the website remains agile and efficient, even during
         name: performance-testing-report
         path: ./performance_testing/testing-report.json
 ```
+![Performance Test image 1](Testing%20Plan/performance-testing/1.png)
+![Performance Test image 2](Testing%20Plan/performance-testing/2.png)
 
 2. After the testing, the report will be uploaded to the **Artifacts**. It will be downloaded and reviewed to ensure the website's compatibility and functionality.
 
+![Performance Test image 3](Testing%20Plan/performance-testing/3.png)
+
+- Performance testing report
 ``` json
 {
   "lighthouseVersion": "11.2.0",
@@ -376,6 +382,42 @@ Performance testing ensures the website remains agile and efficient, even during
 
       // Other sections of report ...
 ```
+### 3. Penetration Test
+
+Due to the LongPlaceBeach Inc. website might be handling the sensitive data, such as from feedback forms to potential donation details. The sanctity and security of this data cannot be overemphasized. Users trust LongPlaceBeach Inc. with their information, and any security breach could tarnish LongPlaceBeach Inc.'s reputation and become an obstacle to future development.
+
+- **Objective**: Ensure the website is secure from common vulnerabilities and threats.
+
+Penetration testing can conduct regular security audits to identify potential threats. Mainly focus on testing probes the website and associated databases for vulnerabilities that malicious entities could exploit.
+
+Hence, **OWASP ZAP** will be adopted as the tool for penetration Tests. It can provide detailed information on potential vulnerabilities and offers passive and active scanning capabilities to identify threats.
+
+#### Penetration Testing process
+
+1. The penetration Testing integrates within a **CI/CD framework**. After pushing the modifications to the git repository, all updates, tweaks, and feature additions are reviewed and systematically tested.
+
+```yaml
+  penetration-testing:
+    needs: [deploy-backend, deploy-frontend]
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+
+      - name: Run OWASP ZAP Scan
+        uses: zaproxy/action-baseline@v0.9.0
+        with:
+          token: ${{ secrets.GH_PAT }}
+          docker_name: 'ghcr.io/zaproxy/zaproxy:stable'
+          target: 'https://longbeachfrontend-0adcfe405469.herokuapp.com/'
+          artifact_name: penetration-testing-report
+          rules_file_name: '.zap/rules.tsv'
+          cmd_options: '-a'
+```
+
+2. After the testing, the report will be uploaded to the **Artifacts**. It will be downloaded and reviewed to ensure the website's security and identify threats.
+
 
 ------------------------
 
