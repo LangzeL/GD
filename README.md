@@ -28,6 +28,7 @@ Folder would be contain the following elements:
 - [Testing](#testing)
    - [Test Plan](#test-plan)
       - [UI/UX Test](#1-uiux-test)
+      - [Performance Test](#2-Performance-Test)
 - [Website Development Version Notes](#Website-Development-Version-Notes)
   - [Features](#Features)
   - [Recommended Technologies](#Recommended-Technologies)
@@ -275,6 +276,106 @@ Therefore, **BackstopJS** will be used as the tool for visual regression testing
    ![UI/UX Test correct image 2](Testing%20Plan/UIUX%20Test/2.png)
    ![UI/UX Test correct image 3](Testing%20Plan/UIUX%20Test/3.png)
 
+
+### 2. Performance Test:
+
+Within the backdrop of the LongPlaceBeach Inc. website, prompt and efficient access to vital information, such as event dates, volunteering sign-ups, and donation methods, is crucial. As LongPlaceBeach Inc. grows and the site garners more traffic,  slowdown or inefficiency could hinder the user experience, potentially leading to lost valuable opportunities.
+
+- **Objective**: Ensure the website loads quickly, handles multiple users and remains stable under stress.
+
+Performance testing ensures the website remains agile and efficient, even during peak traffic. Simulating various user loads and testing different aspects of the website's performance will ensure that every visitor, such as potential donors, volunteers, members, etc., has a seamless and optimal browsing experience.
+
+**Lighthouse** will be adopted for the LongPlaceBeach Inc. website's performance Test tool. It can provide comprehensive insights into how the website performs, looking at metrics crucial for user experience like site load time, interactivity, and content stability as it loads. Beyond that, the actionable feedback on improving performance makes it outstanding from other tools.
+
+#### Performance Testing process
+
+1. The performance testing integrates within a **CI/CD framework**. This ensures that every content update, design tweak, or feature addition is reviewed and passes automated tests before merging. 
+
+```yaml
+  performance-testing:
+    needs: [deploy-backend, deploy-frontend]
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Install lighthouse
+      run: npm install -g lighthouse
+    
+    - name: Create Lighthouse output directory
+      run: mkdir -p performance_testing
+
+    # Run lighthouse test
+    - name: Run Lighthouse Performance Test
+      run: lighthouse "https://longbeachfrontend-0adcfe405469.herokuapp.com/" --chrome-flags="--headless" --output=json --output-path=./performance_testing/testing-report.json
+    
+    - name: Upload Lighthouse Report
+      uses: actions/upload-artifact@v2
+      with:
+        name: performance-testing-report
+        path: ./performance_testing/testing-report.json
+```
+
+2. After the testing, the report will be uploaded to the **Artifacts**. It will be downloaded and reviewed to ensure the website's compatibility and functionality.
+
+``` json
+{
+  "lighthouseVersion": "11.2.0",
+  "requestedUrl": "https://longbeachfrontend-0adcfe405469.herokuapp.com/",
+  "mainDocumentUrl": "https://longbeachfrontend-0adcfe405469.herokuapp.com/",
+  "finalDisplayedUrl": "https://longbeachfrontend-0adcfe405469.herokuapp.com/",
+  "finalUrl": "https://longbeachfrontend-0adcfe405469.herokuapp.com/",
+  "fetchTime": "2023-10-19T16:33:31.885Z",
+  "gatherMode": "navigation",
+  "runWarnings": [],
+  "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/118.0.5993.70 Safari/537.36",
+  "environment": {
+    "networkUserAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Mobile Safari/537.36",
+    "hostUserAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/118.0.5993.70 Safari/537.36",
+    "benchmarkIndex": 1304.5,
+    "credits": {
+      "axe-core": "4.8.2"
+    }
+  },
+  "audits": {
+    "is-on-https": {
+      "id": "is-on-https",
+      "title": "Uses HTTPS",
+      "description": "All sites should be protected with HTTPS, even ones that don't handle sensitive data. This includes avoiding [mixed content](https://developers.google.com/web/fundamentals/security/prevent-mixed-content/what-is-mixed-content), where some resources are loaded over HTTP despite the initial request being served over HTTPS. HTTPS prevents intruders from tampering with or passively listening in on the communications between your app and your users, and is a prerequisite for HTTP/2 and many new web platform APIs. [Learn more about HTTPS](https://developer.chrome.com/docs/lighthouse/pwa/is-on-https/).",
+      "score": 1,
+      "scoreDisplayMode": "binary",
+      "details": {
+        "type": "table",
+        "headings": [],
+        "items": []
+      }
+    },
+    "viewport": {
+      "id": "viewport",
+      "title": "Has a `<meta name=\"viewport\">` tag with `width` or `initial-scale`",
+      "description": "A `<meta name=\"viewport\">` not only optimizes your app for mobile screen sizes, but also prevents [a 300 millisecond delay to user input](https://developer.chrome.com/blog/300ms-tap-delay-gone-away/). [Learn more about using the viewport meta tag](https://developer.chrome.com/docs/lighthouse/pwa/viewport/).",
+      "score": 1,
+      "scoreDisplayMode": "metricSavings",
+      "warnings": [],
+      "metricSavings": {
+        "INP": 0
+      },
+      "guidanceLevel": 3
+    },
+    "first-contentful-paint": {
+      "id": "first-contentful-paint",
+      "title": "First Contentful Paint",
+      "description": "First Contentful Paint marks the time at which the first text or image is painted. [Learn more about the First Contentful Paint metric](https://developer.chrome.com/docs/lighthouse/performance/first-contentful-paint/).",
+      "score": 0.95,
+      "scoreDisplayMode": "numeric",
+      "numericValue": 1527.738,
+      "numericUnit": "millisecond",
+      "displayValue": "1.5 s",
+      "scoringOptions": {
+        "p10": 1800,
+        "median": 3000
+      }
+
+      # Other sections of report ...
+```
 
 ------------------------
 
