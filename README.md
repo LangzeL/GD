@@ -1,4 +1,4 @@
-# COMP30022 IT Project - Team006 LongPlaceBeach Website Development Documentation
+# COMP30022 IT Project - Team006 LongBeachPlace Website Development Documentation
 --------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 **Short guide for this Git repo**
@@ -25,7 +25,10 @@ Folder would be contain the following elements:
 - [Team structure](#Team-structure)
 - [Main Phases of CI/CD（Planning）](#main-phases-of-cicdplanning)
   - [Connecting Development and Operations Teams](#Connecting-Development-and-Operations-Teams)
-  - [Benefits of Automation](#Benefits-of-Automation)
+  - [Additional Considerations](#Additional-Considerations)
+- [Testing](#testing)
+   - [Test Plan](#test-plan)
+      - [UI/UX Test](#1-uiux-test)
 - [Website Development Version Notes](#Website-Development-Version-Notes)
   - [Features](#Features)
   - [Recommended Technologies](#Recommended-Technologies)
@@ -188,7 +191,90 @@ Folder would be contain the following elements:
 ### Additional Considerations:
 
 - **Database Connection:** The back-end deployed on Heroku is connected to MongoDB, and proper connection and data retrieval are crucial for the application's functionality.
+
 - **Continuous Collaboration:** Regular communication and collaboration between development and operations teams are crucial, especially when using different platforms like GitHub and Heroku for various phases of CI/CD.
+
+------------------------
+
+## Testing
+
+### User Stories:
+
+- **New Visitor**: As a new visitor, I want to understand what LongBeach Place Inc. is, where is LongBeach Place Inc. and the events or activities LongBeach Place Inc. operates.
+
+- **Potential Donor**: As a potential donor, I want to see the annual statement or report of LongBeach Place Inc. The success stories and data that demonstrate LongBeach Place Inc. are also desired.
+
+- **Potential Volunteer**: As a potential volunteer, I want to quickly find out how I can get involved and contribute to the LongBeach Place Inc..
+
+- **Current Member**: As a current member, I want to book or change my appointments and hire the room through an easy-to-use interface. Furthermore, I want to know what events are happening in LongBeach Place Inc..
+
+- **Stakeholder**: As a stakeholder, I want to provide and view feedback about the LongBeach Place Inc.'s services and initiatives.
+
+- **Partner**: As a partner, I want to access showcases, contact details and official statements easily.
+
+- **User**: As a user, I expect the site to be accessible on mobile, tablet and desktop devices, with an intuitive and rationalised layout.
+
+### Requirements:
+
+- Home page with a clear navigation bar for easily access.
+- An illustrative page contains LongBeach Place Inc.'s official information.
+- Dynamic activities and events section with photos and quotes.
+- A dedicated volunteer section with sign-up forms and information.
+- A user-friendly appointment booking system.
+- An accessible feedback form and display section.
+- A contact page with organization details, media kits, and official statements.
+- A responsive design that ensures usability across devices.
+
+### Test Plan:
+
+Based on the user stories and requirements defined above, three types of tests would be continuously conducted on the Website throughout the whole development process.
+
+### 1. UI/UX Test:
+
+Given the context of the LongPlaceBeach Inc., ensuring the consistent and accurate presentation of information is paramount. The website would likely undergo several changes over time - updates to events details, activities information, and possibly design tweaks. Every change, even if minor, has the potential to unintentionally disrupt the UI/UX.
+
+- **Objective**: Ensure that the website is intuitive, user-friendly, and aesthetically pleasing. 
+
+For UI/UX test, the Visual Regression Testing strategy will be adopted. It will ensures that changes to the user interface (whether expected or unintentional) are captured and reviewed. It makes sure the interface looks correct after code modifications.
+
+Therefore, **BackstopJS** will be used as the tool for visual regression testing. The users can create a series of screenshots representing the "correct" appearance of your app or website. Then, every time you make changes, **BackstopJS** captures the screenshots again and compares them with the **reference screenshots**. This will detect the unexpected UI changes by highlighting visual discrepancies. 
+
+- During the development of the website, the visual regression testing will be conducted in every team member's **local development environment**, after they have make changes to the UI/UX of the website. The result will be demonstrated in the console output of the terminal and default browser.
+
+#### UI/UX Testing process
+
+1. Use **BackstopJS** to generate a set of **stable versions** of bitmaps as the reference.
+
+   ```bash
+   backstop reference
+   ```
+
+2. **After making changes to the UI/UX of the website**, check the comparison of reference and test screenshots generated by **BackstopJS** and ensure the modification is suitable and accessible from various devices.
+   
+   ```bash
+   npm run test:backstop
+   ```
+   - The comparision will be conducted through multiple devices, ensure the responsive design: 
+   ![UI/UX Test error image 4](Testing%20Plan/UIUX%20Test/4.png)
+   ![UI/UX Test error image 5](Testing%20Plan/UIUX%20Test/5.png)
+   ![UI/UX Test error image 6](Testing%20Plan/UIUX%20Test/6.png)
+   ![UI/UX Test error image 7](Testing%20Plan/UIUX%20Test/7.png)
+
+   - The discrepancies will be highlighted:
+   ![UI/UX Test error image 8](Testing%20Plan/UIUX%20Test/8.png)
+   ![UI/UX Test error image 9](Testing%20Plan/UIUX%20Test/9.png)
+   ![UI/UX Test error image 10](Testing%20Plan/UIUX%20Test/10.png)
+   ![UI/UX Test error image 11](Testing%20Plan/UIUX%20Test/11.png)
+
+3. **After checking the report**, if teams accept the modifications to the UI/UX of the website, the **BackstopJS** will be used to generate a new set of bitmaps as the new reference to update the reference data in the Backstop. This is for the next iteration of UI/UX testing; step one can be skipped for the next time's UI/UX testing.
+
+4. Check the comparison of reference and test screenshots again, ensure the modifications have been deployed successfully and check the accessibility of the website.
+
+   - All the comparisons will be passed, and there will be no errors.
+   ![UI/UX Test correct image 1](Testing%20Plan/UIUX%20Test/1.png)
+   ![UI/UX Test correct image 2](Testing%20Plan/UIUX%20Test/2.png)
+   ![UI/UX Test correct image 3](Testing%20Plan/UIUX%20Test/3.png)
+
 
 ------------------------
 
