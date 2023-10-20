@@ -374,7 +374,7 @@ Performance testing ensures the website remains agile and efficient, even during
         "median": 3000
       }
 
-      # Other sections of report ...
+      // Other sections of report ...
 ```
 
 ------------------------
