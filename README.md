@@ -321,67 +321,68 @@ Performance testing ensures the website remains agile and efficient, even during
 
 ![Performance Test image 3](Testing%20Plan/performance-testing/3.png)
 
-- Performance testing report
-``` json
-{
-  "lighthouseVersion": "11.2.0",
-  "requestedUrl": "https://longbeachfrontend-0adcfe405469.herokuapp.com/",
-  "mainDocumentUrl": "https://longbeachfrontend-0adcfe405469.herokuapp.com/",
-  "finalDisplayedUrl": "https://longbeachfrontend-0adcfe405469.herokuapp.com/",
-  "finalUrl": "https://longbeachfrontend-0adcfe405469.herokuapp.com/",
-  "fetchTime": "2023-10-19T16:33:31.885Z",
-  "gatherMode": "navigation",
-  "runWarnings": [],
-  "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/118.0.5993.70 Safari/537.36",
-  "environment": {
-    "networkUserAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Mobile Safari/537.36",
-    "hostUserAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/118.0.5993.70 Safari/537.36",
-    "benchmarkIndex": 1304.5,
-    "credits": {
-      "axe-core": "4.8.2"
-    }
-  },
-  "audits": {
-    "is-on-https": {
-      "id": "is-on-https",
-      "title": "Uses HTTPS",
-      "description": "All sites should be protected with HTTPS, even ones that don't handle sensitive data. This includes avoiding [mixed content](https://developers.google.com/web/fundamentals/security/prevent-mixed-content/what-is-mixed-content), where some resources are loaded over HTTP despite the initial request being served over HTTPS. HTTPS prevents intruders from tampering with or passively listening in on the communications between your app and your users, and is a prerequisite for HTTP/2 and many new web platform APIs. [Learn more about HTTPS](https://developer.chrome.com/docs/lighthouse/pwa/is-on-https/).",
-      "score": 1,
-      "scoreDisplayMode": "binary",
-      "details": {
-        "type": "table",
-        "headings": [],
-        "items": []
+   - Performance testing report
+   ``` json
+   {
+   "lighthouseVersion": "11.2.0",
+   "requestedUrl": "https://longbeachfrontend-0adcfe405469.herokuapp.com/",
+   "mainDocumentUrl": "https://longbeachfrontend-0adcfe405469.herokuapp.com/",
+   "finalDisplayedUrl": "https://longbeachfrontend-0adcfe405469.herokuapp.com/",
+   "finalUrl": "https://longbeachfrontend-0adcfe405469.herokuapp.com/",
+   "fetchTime": "2023-10-19T16:33:31.885Z",
+   "gatherMode": "navigation",
+   "runWarnings": [],
+   "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/118.0.5993.70 Safari/537.36",
+   "environment": {
+      "networkUserAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Mobile Safari/537.36",
+      "hostUserAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/118.0.5993.70 Safari/537.36",
+      "benchmarkIndex": 1304.5,
+      "credits": {
+         "axe-core": "4.8.2"
       }
-    },
-    "viewport": {
-      "id": "viewport",
-      "title": "Has a `<meta name=\"viewport\">` tag with `width` or `initial-scale`",
-      "description": "A `<meta name=\"viewport\">` not only optimizes your app for mobile screen sizes, but also prevents [a 300 millisecond delay to user input](https://developer.chrome.com/blog/300ms-tap-delay-gone-away/). [Learn more about using the viewport meta tag](https://developer.chrome.com/docs/lighthouse/pwa/viewport/).",
-      "score": 1,
-      "scoreDisplayMode": "metricSavings",
-      "warnings": [],
-      "metricSavings": {
-        "INP": 0
+   },
+   "audits": {
+      "is-on-https": {
+         "id": "is-on-https",
+         "title": "Uses HTTPS",
+         "description": "All sites should be protected with HTTPS, even ones that don't handle sensitive data. This includes avoiding [mixed content](https://developers.google.com/web/fundamentals/security/prevent-mixed-content/what-is-mixed-content), where some resources are loaded over HTTP despite the initial request being served over HTTPS. HTTPS prevents intruders from tampering with or passively listening in on the communications between your app and your users, and is a prerequisite for HTTP/2 and many new web platform APIs. [Learn more about HTTPS](https://developer.chrome.com/docs/lighthouse/pwa/is-on-https/).",
+         "score": 1,
+         "scoreDisplayMode": "binary",
+         "details": {
+         "type": "table",
+         "headings": [],
+         "items": []
+         }
       },
-      "guidanceLevel": 3
-    },
-    "first-contentful-paint": {
-      "id": "first-contentful-paint",
-      "title": "First Contentful Paint",
-      "description": "First Contentful Paint marks the time at which the first text or image is painted. [Learn more about the First Contentful Paint metric](https://developer.chrome.com/docs/lighthouse/performance/first-contentful-paint/).",
-      "score": 0.95,
-      "scoreDisplayMode": "numeric",
-      "numericValue": 1527.738,
-      "numericUnit": "millisecond",
-      "displayValue": "1.5 s",
-      "scoringOptions": {
-        "p10": 1800,
-        "median": 3000
-      }
+      "viewport": {
+         "id": "viewport",
+         "title": "Has a `<meta name=\"viewport\">` tag with `width` or `initial-scale`",
+         "description": "A `<meta name=\"viewport\">` not only optimizes your app for mobile screen sizes, but also prevents [a 300 millisecond delay to user input](https://developer.chrome.com/blog/300ms-tap-delay-gone-away/). [Learn more about using the viewport meta tag](https://developer.chrome.com/docs/lighthouse/pwa/viewport/).",
+         "score": 1,
+         "scoreDisplayMode": "metricSavings",
+         "warnings": [],
+         "metricSavings": {
+         "INP": 0
+         },
+         "guidanceLevel": 3
+      },
+      "first-contentful-paint": {
+         "id": "first-contentful-paint",
+         "title": "First Contentful Paint",
+         "description": "First Contentful Paint marks the time at which the first text or image is painted. [Learn more about the First Contentful Paint metric](https://developer.chrome.com/docs/lighthouse/performance/first-contentful-paint/).",
+         "score": 0.95,
+         "scoreDisplayMode": "numeric",
+         "numericValue": 1527.738,
+         "numericUnit": "millisecond",
+         "displayValue": "1.5 s",
+         "scoringOptions": {
+         "p10": 1800,
+         "median": 3000
+         }
 
-      // Other sections of report ...
-```
+         // Other sections of report ...
+   ```
+
 ### 3. Penetration Test
 
 Due to the LongPlaceBeach Inc. website might be handling the sensitive data, such as from feedback forms to potential donation details. The sanctity and security of this data cannot be overemphasized. Users trust LongPlaceBeach Inc. with their information, and any security breach could tarnish LongPlaceBeach Inc.'s reputation and become an obstacle to future development.
@@ -416,8 +417,22 @@ Hence, **OWASP ZAP** will be adopted as the tool for penetration Tests. It can p
           cmd_options: '-a'
 ```
 
+![Penetration Test image 1](Testing%20Plan/penetration-testing/1.png)
+![Penetration Test image 2](Testing%20Plan/penetration-testing/2.png)
+
 2. After the testing, the report will be uploaded to the **Artifacts**. It will be downloaded and reviewed to ensure the website's security and identify threats.
 
+![Performance Test image 3](Testing%20Plan/performance-testing/3.png)
+
+   - Penetration testing report
+   ![Penetration Test image 3](Testing%20Plan/penetration-testing/3.png)
+   ![Penetration Test image 4](Testing%20Plan/penetration-testing/4.png)
+   ![Penetration Test image 5](Testing%20Plan/penetration-testing/5.png)
+
+### Documentation
+
+- All tests should be documented with objectives, tools, methodologies, and results.
+- The identified issues should be labelled, documented and prioritized for fixing.
 
 ------------------------
 
