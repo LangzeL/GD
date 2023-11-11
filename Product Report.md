@@ -221,7 +221,7 @@ During development, we iterated over several prototypes, refining the UI/UX unti
 
 The below gif is a short demo demonstrating how editor work
 
-![editor](C:\Users\anson\Documents\GitHub\GD\Diagram\editor.gif)
+![editor](Diagram/editor.gif)
 
 Furthermore, to streamline the content update process, we engineered a solution to convert our React JSX code into HTML for storage in the database. This translation allowed for the admin's content changes to be directly saved in a format that could be readily served to the website.
 
@@ -229,7 +229,7 @@ For instance, every time user did a change in the website, the database will imm
 
 ![saved](Diagram/saved.png)
 
-![mongodbsaved](C:\Users\anson\Documents\GitHub\GD\Diagram\mongodbsaved.png)
+![mongodbsaved](Diagram/mongodbsaved.png)
 
 Upon completion of edits through the Grape.js interface, the updated content—now in HTML format—is committed to the database. This approach ensures that any modifications made by the admin are not only saved securely but are also immediately reflected in the backend.
 
@@ -562,7 +562,7 @@ This automated deployment process not only reflects our team's efficiency but al
 
 A key aspect of our deployment process was the implementation of a versioning system that allowed us to track and maintain different states of the application over time. With every deployment, our GitHub Actions workflow automatically incremented the version number, assigning a unique tag to each release.
 
-![patch](C:\Users\anson\Documents\GitHub\GD\Diagram\patch.png)
+![patch](Diagram/patch.png)
 
 **Automated Version Tagging**
 
@@ -642,9 +642,9 @@ In our design process, accessibility and responsiveness were not afterthoughts b
 
 And below is few more example showing our responsive design in moblie view:
 
-![responsivedesign1](C:\Users\anson\Documents\GitHub\GD\Diagram\responsivedesign1.png)
+![responsivedesign1](Diagram/responsivedesign1.png)
 
-![responsivedesign3](C:\Users\anson\Documents\GitHub\GD\Diagram\responsivedesign3.png)
+![responsivedesign3](Diagram/responsivedesign3.png)
 
 Changing column to one makes the subsection looks more clean and provide consistent accessbility.
 
@@ -689,7 +689,7 @@ Our team has equipped the Longbeach Place website with a suite of features desig
 
 - **Gallery**: An image gallery feature showcases the vibrant community and activities at Longbeach Place, providing a visual narrative of the experiences they offer.
 
-  ![Gallery](C:\Users\anson\Documents\GitHub\GD\Diagram\Gallery.png)
+  ![Gallery](Diagram/Gallery.png)
 
 - **Room Hire Page**: This feature offers detailed information on room availability and the hiring process, facilitating easy reservations for community members.
 
@@ -711,7 +711,7 @@ Our team has equipped the Longbeach Place website with a suite of features desig
 
   - What we provided:
 
-  ![silder](C:\Users\anson\Documents\GitHub\GD\Diagram\silder.gif)
+  ![silder](Diagram/silder.gif)
 
 These features collectively create a robust digital ecosystem that not only meets the needs of Longbeach Place's administrators and users but also enriches the overall user experience. Our focus on both functionality and aesthetics ensures that each visit to the website is both engaging and productive.
 
