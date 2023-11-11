@@ -338,14 +338,25 @@ Therefore, **BackstopJS** will be used as the tool for visual regression testing
 
    
 
-   - The comparision will be conducted through multiple devices, ensure the responsive design: [![UI/UX Test error image 4](Testing%20Plan/UIUX%20Test/4.png)](https://github.com/LangzeL/GD/blob/main/Testing Plan/UIUX Test/4.png) [![UI/UX Test error image 5](Testing%20Plan/UIUX%20Test/5.png)](https://github.com/LangzeL/GD/blob/main/Testing Plan/UIUX Test/5.png) [![UI/UX Test error image 6](Testing%20Plan/UIUX%20Test/6.png)](https://github.com/LangzeL/GD/blob/main/Testing Plan/UIUX Test/6.png) [![UI/UX Test error image 7](Testing%20Plan/UIUX%20Test/7.png)](https://github.com/LangzeL/GD/blob/main/Testing Plan/UIUX Test/7.png)
-   - The discrepancies will be highlighted: [![UI/UX Test error image 8](Testing%20Plan/UIUX%20Test/8.png)](https://github.com/LangzeL/GD/blob/main/Testing Plan/UIUX Test/8.png) [![UI/UX Test error image 9](Testing%20Plan/UIUX%20Test/9.png)](https://github.com/LangzeL/GD/blob/main/Testing Plan/UIUX Test/9.png) [![UI/UX Test error image 10](Testing%20Plan/UIUX%20Test/10.png)](https://github.com/LangzeL/GD/blob/main/Testing Plan/UIUX Test/10.png) [![UI/UX Test error image 11](Testing%20Plan/UIUX%20Test/11.png)](https://github.com/LangzeL/GD/blob/main/Testing Plan/UIUX Test/11.png)
+   - The comparision will be conducted through multiple devices, ensure the responsive design:
+![UI/UX Test error image 4](Testing%20Plan/UIUX%20Test/4.png)
+![UI/UX Test error image 5](Testing%20Plan/UIUX%20Test/5.png)
+![UI/UX Test error image 6](Testing%20Plan/UIUX%20Test/6.png)
+![UI/UX Test error image 7](Testing%20Plan/UIUX%20Test/7.png)
+   - The discrepancies will be highlighted:
+![UI/UX Test error image 8](Testing%20Plan/UIUX%20Test/8.png)
+![UI/UX Test error image 9](Testing%20Plan/UIUX%20Test/9.png)
+![UI/UX Test error image 10](Testing%20Plan/UIUX%20Test/10.png)
+![UI/UX Test error image 11](Testing%20Plan/UIUX%20Test/11.png)
 
 3. **After checking the report**, if teams accept the modifications to the UI/UX of the website, the **BackstopJS** will be used to generate a new set of bitmaps as the new reference to update the reference data in the Backstop. This is for the next iteration of UI/UX testing; step one can be skipped for the next time's UI/UX testing.
 
 4. Check the comparison of reference and test screenshots again, ensure the modifications have been deployed successfully and check the accessibility of the website.
 
-   - All the comparisons will be passed, and there will be no errors. [![UI/UX Test correct image 1](Testing%20Plan/performance-testing/1.png)](https://github.com/LangzeL/GD/blob/main/Testing Plan/UIUX Test/1.png) [![UI/UX Test correct image 2](Testing%20Plan/performance-testing/2.png)](https://github.com/LangzeL/GD/blob/main/Testing Plan/UIUX Test/2.png) [![UI/UX Test correct image 3](Testing%20Plan/performance-testing/3.png)](https://github.com/LangzeL/GD/blob/main/Testing Plan/UIUX Test/3.png)
+   - All the comparisons will be passed, and there will be no errors.
+![UI/UX Test correct image 1](Testing%20Plan/performance-testing/1.png)
+![UI/UX Test correct image 2](Testing%20Plan/performance-testing/2.png)
+![UI/UX Test correct image 3](Testing%20Plan/performance-testing/3.png)
 
 ### 2. Performance Test
 
@@ -386,11 +397,12 @@ Performance testing ensures the website remains agile and efficient, even during
 
 
 
-[![Performance Test image 1](Testing%20Plan/performance-testing/1.png)](https://github.com/LangzeL/GD/blob/main/Testing Plan/performance-testing/1.png) [![Performance Test image 2](Testing%20Plan/performance-testing/2.png)](https://github.com/LangzeL/GD/blob/main/Testing Plan/performance-testing/2.png)
+![Performance Test image 1](Testing%20Plan/performance-testing/1.png)
+![Performance Test image 2](Testing%20Plan/performance-testing/2.png)
 
 1. After the testing, the report will be uploaded to the **Artifacts**. It will be downloaded and reviewed to ensure the website's compatibility and functionality.
 
-[![Performance Test image 3](Testing%20Plan/performance-testing/3.png)](https://github.com/LangzeL/GD/blob/main/Testing Plan/performance-testing/3.png)
+![Performance Test image 3](Testing%20Plan/performance-testing/3.png)
 
 - Performance testing report
 
@@ -465,7 +477,7 @@ Penetration testing can conduct regular security audits to identify potential th
 
 Hence, **OWASP ZAP** will be adopted as the tool for penetration Tests. It can provide detailed information on potential vulnerabilities and offers passive and active scanning capabilities to identify threats.
 
-#### [Penetration Testing process](https://github.com/LangzeL/GD/edit/main/README.md#penetration-testing-process)
+#### Penetration Testing process
 
 1. The penetration Testing integrates within a **CI/CD framework**. After pushing the modifications to the git repository, all updates, tweaks, and feature additions are reviewed and systematically tested.
 
@@ -491,13 +503,17 @@ Hence, **OWASP ZAP** will be adopted as the tool for penetration Tests. It can p
 
 
 
-[![Penetration Test image 1](Testing%20Plan/penetration-testing/1.png)](https://github.com/LangzeL/GD/blob/main/Testing Plan/penetration-testing/1.png) [![Penetration Test image 2](Testing%20Plan/penetration-testing/2.png)](https://github.com/LangzeL/GD/blob/main/Testing Plan/penetration-testing/2.png)
+![Penetration Test image 1](Testing%20Plan/penetration-testing/1.png)
+![Penetration Test image 2](Testing%20Plan/penetration-testing/2.png)
 
 1. After the testing, the report will be uploaded to the **Artifacts**. It will be downloaded and reviewed to ensure the website's security and identify threats.
 
-[![Performance Test image 3](Testing%20Plan/performance-testing/3.png)](https://github.com/LangzeL/GD/blob/main/Testing Plan/performance-testing/3.png)
+![Performance Test image 3](Testing%20Plan/performance-testing/3.png)
 
-- Penetration testing report [![Penetration Test image 3](Testing%20Plan/penetration-testing/3.png)](https://github.com/LangzeL/GD/blob/main/Testing Plan/penetration-testing/3.png) [![Penetration Test image 4](Testing%20Plan/penetration-testing/4.png)](https://github.com/LangzeL/GD/blob/main/Testing Plan/penetration-testing/4.png) [![Penetration Test image 5](Testing%20Plan/penetration-testing/5.png)](https://github.com/LangzeL/GD/blob/main/Testing Plan/penetration-testing/5.png)
+- Penetration testing report
+![Penetration Test image 3](Testing%20Plan/penetration-testing/3.png)
+![Penetration Test image 4](Testing%20Plan/penetration-testing/4.png)
+![Penetration Test image 5](Testing%20Plan/penetration-testing/5.png)
 
 ### Documentation
 
