@@ -233,7 +233,7 @@ For instance, every time user did a change in the website, the database will imm
 
 Upon completion of edits through the Grape.js interface, the updated content—now in HTML format—is committed to the database. This approach ensures that any modifications made by the admin are not only saved securely but are also immediately reflected in the backend.
 
-![Admin Interactions with Website Editor (Sequence Diagram)](C:\Users\anson\Documents\GitHub\GD\Diagram\Admin Interactions with Website Editor (Sequence Diagram).png)
+![Admin Interactions with Website Editor (Sequence Diagram)](Diagram/Admin%20Interactions%20with%20Website%20Editor%20(Sequence%20Diagram).png)
 
 [^figure 2]: uml diagram of editor function
 
