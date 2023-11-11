@@ -22,6 +22,7 @@
   - [Team Structure](#team-structure)
   - [Communication](#communication)
   - [Version Control](#version-control)
+  - [Coding](#Coding)
 - [User Documentation and Support](#user-documentation-and-support)
 - [Conclusion and Future Work](#conclusion-and-future-work)
 
@@ -205,7 +206,7 @@ Our typography choices were similarly deliberate, aimed at ensuring readability 
 
 **Editor function**
 
-With the client's requirements for a dynamic and easily updatable website in mind, we turned our attention to the development of the edit function, a key feature that would empower the Longbeach Place team to maintain and refresh their content as needed. For this critical component, we chose Grape.js, an open-source web builder framework that's known for its flexibility and user-friendliness.![example grapejs](C:\Users\anson\Documents\GitHub\GD\Diagram\example grapejs.png)
+With the client's requirements for a dynamic and easily updatable website in mind, we turned our attention to the development of the edit function, a key feature that would empower the Longbeach Place team to maintain and refresh their content as needed. For this critical component, we chose Grape.js, an open-source web builder framework that's known for its flexibility and user-friendliness.![example grapejs](Diagram/example%20grapejs.png)
 
 [^figure 1]: example of grape.js UI
 
@@ -827,6 +828,16 @@ Our version control system was central to our project management strategy. We us
 - **Branching Strategy**: We implemented a branching model that allowed for feature development, bug fixes, and experimentation without disrupting the main codebase.
 - **Pull Requests and Code Reviews**: These were standard practice, ensuring code quality and consistency. They also facilitated knowledge sharing and collaborative problem-solving.
 - **Release Tagging**: For each deployment, we used semantic versioning and tagging to document our progress and create a clear deployment history.
+
+### Coding
+
+The coding standard was define under `Coding standard`folder
+
+[GD/Coding standard/Coding Standards Document.md at main · LangzeL/GD (github.com)](https://github.com/LangzeL/GD/blob/main/Coding standard/Coding Standards Document.md)
+
+Every rule are rigorously enforced by our team member which can be shown in
+
+[LangzeL/COMP30022-Content (github.com)](https://github.com/LangzeL/COMP30022-Content)
 
 Through diligent project management and collaboration, we not only met our project objectives but also cultivated a team environment that encouraged learning, innovation, and mutual support. This foundation of structured management and teamwork was pivotal in navigating the complexities of the project and delivering a final product that we are proud of.
 
