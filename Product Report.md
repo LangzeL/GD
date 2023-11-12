@@ -534,7 +534,7 @@ Hence, **OWASP ZAP** will be adopted as the tool for penetration Tests. It can p
 
 ## [LongBeach Place Inc (longbeachfrontend0adcfe405469.herokuapp.com)](https://longbeachfrontend-0adcfe405469.herokuapp.com/)
 
-## [Back end: ](https://github.com/LangzeL/COMP30022-Content/tree/main#back-end-error-longbeachbackend-2c4b09f98b44herokuappcom--dw-about-the-error)
+## Back end:
 
 ## [Error (longbeachbackend-2c4b09f98b44.herokuapp.com)](https://longbeachbackend-2c4b09f98b44.herokuapp.com/) // dw about the error
 
