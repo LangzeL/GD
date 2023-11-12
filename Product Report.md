@@ -525,7 +525,7 @@ Hence, **OWASP ZAP** will be adopted as the tool for penetration Tests. It can p
 
 ## Deployment
 
-Update in 10th/Nov/2023, the overall LBP website  was not deploy by the membership group yet, therefore the deployment in this document will only focus for LBP content group, which is deploy by team006.
+> [!IMPORTANT] Update in 10th/Nov/2023, the overall LBP website  was not deploy by the membership group yet, therefore the deployment in this document will only focus for LBP content group, which is deploy by team006.
 
 ## deploy url:
 
@@ -847,17 +847,85 @@ Through diligent project management and collaboration, we not only met our proje
 
 To ensure a smooth transition and continued ease of use, we've developed comprehensive user documentation and support resources for the Longbeach Place website. This documentation is designed to empower users with the knowledge to navigate, manage content, and utilize the site's features to their full potential.
 
-- 
+---------------------
 
+**Content management system**
 
+In order to use the content management system, it is important to notice that only `Admin` have the access to modify or change content display in the website. 
 
+> [!IMPORTANT] To make sure the user have the right authentication, contact membership team first in order to have the correct account. In this document every demonstration will be use with in`content/test`account, this is an account helps our early developing process and will be `delete`after delivering to client.
 
+```
+User name: Content/test
 
+User password: d.4rPH8tPvzTS!i
+```
 
+#### Step 1: Login using admin account
 
+![admin login](Diagram/admin%20login.png)
 
+![login panel](Diagram/login%20panel.png)
 
+#### Step 2: Select admin button
 
+> [!Note] Only admin account will show the admin button, if you can not see it, it would be a good indication that you are not using an admin account
+
+![adminedit](Diagram/adminedit.png)
+
+#### Step 3: Select page that need to be modify
+
+Using showcase as an example:
+
+![showcase](Diagram/showcase.png)
+
+Firstly click the showcase button to directly go to showcase edit page
+
+![showcaseedit](C:\Users\anson\Documents\GitHub\GD\Diagram\showcaseedit.png)
+
+Click the content/picture admin wants to justify, for example I want to change **Showcase** to **Show case**, the simplist way is just to click the Showcase **textbox**
+
+![textbox](Diagram/textbox.png)
+
+and change **Showcase** to **Show case**
+
+![textbox update](Diagram/textbox%20update.png)
+
+And click `Save` in the top right panel
+
+![Save](Diagram/Save.png)
+
+There will always be a Saved animation indicating the succession save
+
+> [!Note] If the saved animation did not pop up, it is a indication of unsuccessful connection to database in backend
+
+![saveindication](C:\Users\anson\Documents\GitHub\GD\Diagram\saveindication.png)
+
+And the update version of the Show case will instantly update in the Show case page
+
+![showcaseupdate](C:\Users\anson\Documents\GitHub\GD\Diagram\showcaseupdate.png)
+
+If the admin want's to modify picture component, same concept apply to picture, just click the picture component and choose the image they wants to modify, always remember to **save at the end.**
+
+![picture](Diagram/picture.png)
+
+In addition, because the saved content was store in MongoDB, therefore, admin can choose to change the page content in MongoDB, and it is great for future testing and maintenance
+
+> [!Note] Assuming client already got access to the MongoDB with the full access
+
+![mongodbsc](Diagram/mongodbsc.png)
+
+[^figure 10]: admin can change the html/css file directly via access to database
+
+There are plenty more interesting edit function client can play with, they are allow to add link or video in the website, since those were not the major requirement of the website, we will just focus on text/image edit in this document, further tutorial of how everything works in detail [Introduction | GrapesJS](https://grapesjs.com/docs/) offers whole tutorial on every component in detail.
+
+![additional function](Diagram/additional%20function.png)
+
+This is the text edit panel that allow user to change the display look in the website
+
+![additional function2](Diagram/additional%20function2.png)
+
+Other than **Content management system**, everything else is simple and straight forward to use, we(page content group) provide every page link helps other group to integrate with their function, inorder to check how other function works in the whole LBP website, please visit [lbp-inc/lbp-website (github.com)](https://github.com/lbp-inc/lbp-website)
 
 -----------------------------
 
