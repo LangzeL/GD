@@ -525,7 +525,8 @@ Hence, **OWASP ZAP** will be adopted as the tool for penetration Tests. It can p
 
 ## Deployment
 
-> [!IMPORTANT] Update in 10th/Nov/2023, the overall LBP website  was not deploy by the membership group yet, therefore the deployment in this document will only focus for LBP content group, which is deploy by team006.
+> [!IMPORTANT]
+> Update in 10th/Nov/2023, the overall LBP website  was not deploy by the membership group yet, therefore the deployment in this document will only focus for LBP content group, which is deploy by team006.
 
 ## deploy url:
 
@@ -628,10 +629,9 @@ As course planning is one of the key focus for website, making it visually appea
 ![sample button](Diagram/sample%20button.gif)
 
 ![hovernavbar](Diagram/hovernavbar.png)
+[^figure 6]: hover when mouse was pointing on the subsection
 
 ![hoversociallink](Diagram/hoversociallink.png)
-
-[^figure 6]: hover when mouse was pointing on the subsection
 
 ![silder](Diagram\silder.gif)
 
