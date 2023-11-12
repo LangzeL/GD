@@ -14,6 +14,7 @@ Folder would be contain the following elements:
 - **WeChat Conversation** // this folder contains translated communication of **Wechat** the communication tool our team is using
 - **Weekly Meeting Notes** // this folder contains every meeting notes of **TEAM006** from **W2-W9** so far
 - **Zoom meeting detail** // this folder contains every zoom meeting detail, participants, duration of the meeting, etc..
+- **Product report**//This file contains the final version of the product document and provide the user guide
 - **README** would be the main group document 
 
 ----------------
