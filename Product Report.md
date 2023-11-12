@@ -8,7 +8,7 @@
 - [Introduction](#introduction)
 - [Website Developing Work Progress](#website-developing-work-progress)
   - [Planning and Analysis](#planning-and-analysis)
-  - [Development](#development)
+  - [Development](#Development)
   - [Testing](#testing)
   - [Deployment](#deployment)
 - [Design and User Experience](#design-and-user-experience)
@@ -853,7 +853,8 @@ To ensure a smooth transition and continued ease of use, we've developed compreh
 
 In order to use the content management system, it is important to notice that only `Admin` have the access to modify or change content display in the website. 
 
-> [!IMPORTANT] To make sure the user have the right authentication, contact membership team first in order to have the correct account. In this document every demonstration will be use with in`content/test`account, this is an account helps our early developing process and will be `delete`after delivering to client.
+> [!IMPORTANT]
+> To make sure the user have the right authentication, contact membership team first in order to have the correct account. In this document every demonstration will be use with in`content/test`account, this is an account helps our early developing process and will be `delete`after delivering to client.
 
 ```
 User name: Content/test
@@ -869,7 +870,8 @@ User password: d.4rPH8tPvzTS!i
 
 #### Step 2: Select admin button
 
-> [!Note] Only admin account will show the admin button, if you can not see it, it would be a good indication that you are not using an admin account
+> [!Note]
+> Only admin account will show the admin button, if you can not see it, it would be a good indication that you are not using an admin account
 
 ![adminedit](Diagram/adminedit.png)
 
@@ -897,7 +899,8 @@ And click `Save` in the top right panel
 
 There will always be a Saved animation indicating the succession save
 
-> [!Note] If the saved animation did not pop up, it is a indication of unsuccessful connection to database in backend
+> [!Note]
+>  If the saved animation did not pop up, it is a indication of unsuccessful connection to database in backend
 
 ![saveindication](Diagram/saveindication.png)
 
@@ -911,7 +914,8 @@ If the admin want's to modify picture component, same concept apply to picture, 
 
 In addition, because the saved content was store in MongoDB, therefore, admin can choose to change the page content in MongoDB, and it is great for future testing and maintenance
 
-> [!Note] Assuming client already got access to the MongoDB with the full access
+> [!Note]
+> Assuming client already got access to the MongoDB with the full access
 
 ![mongodbsc](Diagram/mongodbsc.png)
 
