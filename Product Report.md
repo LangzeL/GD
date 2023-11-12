@@ -881,7 +881,7 @@ Using showcase as an example:
 
 Firstly click the showcase button to directly go to showcase edit page
 
-![showcaseedit](\Diagram/showcaseedit.png)
+![showcaseedit](Diagram/showcaseedit.png)
 
 Click the content/picture admin wants to justify, for example I want to change **Showcase** to **Show case**, the simplist way is just to click the Showcase **textbox**
 
