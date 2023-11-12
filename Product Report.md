@@ -899,11 +899,11 @@ There will always be a Saved animation indicating the succession save
 
 > [!Note] If the saved animation did not pop up, it is a indication of unsuccessful connection to database in backend
 
-![saveindication](C:\Users\anson\Documents\GitHub\GD\Diagram\saveindication.png)
+![saveindication](Diagram/saveindication.png)
 
 And the update version of the Show case will instantly update in the Show case page
 
-![showcaseupdate](C:\Users\anson\Documents\GitHub\GD\Diagram\showcaseupdate.png)
+![showcaseupdate](Diagram/showcaseupdate.png)
 
 If the admin want's to modify picture component, same concept apply to picture, just click the picture component and choose the image they wants to modify, always remember to **save at the end.**
 
